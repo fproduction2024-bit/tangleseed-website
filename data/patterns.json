@@ -1431,7 +1431,7 @@
     "nameJa": "ブロンクスチアー",
     "slug": "bronx-cheer",
     "description": "An official Zentangle pattern with bold, dynamic organic forms that create visual energy and movement.",
-    "descriptionJa": "視覚的なエネルギーと動きを作り出す大胆でダイナミックな有機的形態を持つ公式ゼンタングルパターンです。",
+    "descriptionJa": "Bronx Cheer（ブロンクスチアー）は、熟したベリーや小さな木の実が寄り添い合っているような、質感豊かで生命力あふれる公式パターンです。ゼンタングルの初期から親しまれているこのタングルは、丸い形を密集させて描き、その隙間を丁寧に塗りつぶしていくことで、画面に心地よい重厚感とリズムを与えてくれます。\n\n描き方は一見シンプルですが、円の中に「シード（種）」のような小さな点々を加えたり、ハイライト（光）を意識して塗りつぶしに強弱をつけたりすることで、驚くほどリアルな立体感が生まれます。タイルの端に縁取りとして使ったり、他の有機的なパターンの隙間を埋める「フィラー（埋め尽くし）」として使ったりするのも非常に効果的です。単なる円の羅列ではなく、一つ一つの「実」が呼吸しているようなイメージで描くことで、作品全体に温かみと密度をもたらしてくれます。",
     "difficulty": "intermediate",
     "category": [
       "official",
@@ -1441,17 +1441,17 @@
       {
         "stepNumber": 1,
         "instruction": "Draw dynamic organic shapes",
-        "instructionJa": "ダイナミックな有機的形状を描きます"
+        "instructionJa": "サイズを変えながら、いくつかの小さな円を寄り添わせるように描きます"
       },
       {
         "stepNumber": 2,
         "instruction": "Add bold flowing elements",
-        "instructionJa": "大胆な流れる要素を追加します"
+        "instructionJa": "円の中に小さな点を加え、円の隙間を黒く丁寧に塗りつぶして深みを出します"
       },
       {
         "stepNumber": 3,
         "instruction": "Build energetic pattern",
-        "instructionJa": "エネルギッシュなパターンを構築します"
+        "instructionJa": "必要に応じてハイライトを加え、ベリーが密集しているような質感に仕上げます"
       }
     ],
     "imageUrl": "/images/patterns/bronx-cheer.jpg",
@@ -1469,7 +1469,7 @@
     "nameJa": "エリッシュ",
     "slug": "ellish",
     "description": "An official Zentangle pattern featuring elegant flowing organic forms with graceful curves.",
-    "descriptionJa": "優雅な曲線を持つエレガントな流れる有機的形態が特徴の公式ゼンタングルパターンです。",
+    "descriptionJa": "Ellish（エリッシュ）は、ゼンタングルの共同創設者 Maria Thomas によって考案された、アルファベットの「C」や「S」のような優雅な曲線が幾重にも重なり合う公式パターンです。その洗練されたフォルムは、アール・ヌーヴォーの装飾や流れるようなリボンを彷彿とさせ、タイル全体に高貴で流動的な美しさをもたらします。\n\nこのパターンの鍵は、最初に描いた大きな曲線の輪郭に沿って、平行な「オーラ」を丁寧に重ねていくことにあります。線を一本引くたびに、隣の線との間隔を一定に保つことに集中することで、深い瞑想状態へと導かれます。また、曲線の終わりをくるりと巻いたり、太い線と細い線を対比させたりすることで、よりドラマチックな表情になります。Mooka（ムーカ）のような他の流線型パターンとの相性も抜群で、作品に風が吹いているような動きを与えたい時に最適なタングルです。",
     "difficulty": "intermediate",
     "category": [
       "official",
@@ -1480,17 +1480,17 @@
       {
         "stepNumber": 1,
         "instruction": "Draw elegant flowing curves",
-        "instructionJa": "エレガントな流れる曲線を描きます"
+        "instructionJa": "ガイドとなる優雅なS字やC字の曲線を、ゆったりと描きます"
       },
       {
         "stepNumber": 2,
         "instruction": "Add organic flowing elements",
-        "instructionJa": "有機的な流れる要素を追加します"
+        "instructionJa": "最初の線に寄り添うように、等間隔のオーラ（並行線）を何度も重ねていきます"
       },
       {
         "stepNumber": 3,
         "instruction": "Complete with graceful details",
-        "instructionJa": "優雅なディテールで完成させます"
+        "instructionJa": "線の端に重み（ウェイト）を加え、影をつけることで、流れるリボンのような立体感を完成させます"
       }
     ],
     "imageUrl": "/images/patterns/ellish.jpg",
@@ -1508,7 +1508,7 @@
     "nameJa": "インディレラ",
     "slug": "indy-rella",
     "description": "A popular official Zentangle pattern with distinctive organic and flowing characteristics.",
-    "descriptionJa": "特徴的な有機的で流れるような特性を持つ人気の公式ゼンタングルパターンです。",
+    "descriptionJa": "Indy-Rella（インディレラ）は、中央の点から放射状に広がる、傘（アンブレラ）のような不思議な形状が特徴の公式パターンです。名前にひねりが効いているこのタングルは、幾何学的なカッチリ感と、有機的な柔らかさを併せ持っており、タイルの中に華やかなフォーカルポイント（注目点）を作りたい時に非常に役立ちます。\n\n描き方は、まず中心点（ハブ）を決め、そこから放射状にスポーク（骨組み）を伸ばしていきます。それぞれのスポークの端を丸い曲線で繋ぎ、さらにその周りにオーラを重ねたり、内部にディテールを書き込んだりすることで、どんどん豪華な装飾へと成長していきます。一つだけで描くと大きな花や傘のように見え、たくさん並べて描くと不思議な森の植物のような幻想的な風景を作り出します。色々な大きさに変えて散りばめても楽しい、可憐で存在感のあるタングルです。",
     "difficulty": "intermediate",
     "category": [
       "official",
@@ -1518,17 +1518,17 @@
       {
         "stepNumber": 1,
         "instruction": "Create distinctive organic base",
-        "instructionJa": "特徴的な有機的ベースを作成します"
+        "instructionJa": "中心となる点を決め、そこから放射状に数本の直線を引きます"
       },
       {
         "stepNumber": 2,
         "instruction": "Add flowing pattern elements",
-        "instructionJa": "流れるパターン要素を追加します"
+        "instructionJa": "スポークの先端同士をアーチ状の曲線で繋ぎ、オーラを重ねて厚みを出します"
       },
       {
         "stepNumber": 3,
         "instruction": "Build the unique pattern",
-        "instructionJa": "ユニークなパターンを構築します"
+        "instructionJa": "中央や縁にディテールを加え、立体的な傘や花のような形に仕上げます"
       }
     ],
     "imageUrl": "/images/patterns/indy-rella.jpg",
@@ -1546,7 +1546,7 @@
     "nameJa": "イクソラス",
     "slug": "ixorus",
     "description": "An official Zentangle pattern featuring geometric forms with distinctive angular characteristics.",
-    "descriptionJa": "特徴的な角張った特性を持つ幾何学的形態が特徴の公式ゼンタングルパターンです。",
+    "descriptionJa": "Ixorus（イクソラス）は、直線が規則的に交差することで生まれる、結晶やステンドグラスのような幾何学的美しさを持つ公式パターンです。その整然としたライン構成は、タイルの上に構造的な安心感と清潔感を与え、複雑な曲線パターンが並ぶ中で絶妙な引き締め役（建築的な要素）として機能します。\n\nシンプルに線を交差させていくだけですが、交差点（結び目）の部分に少しだけウェイト（太み）を持たせたり、出来上がった形の中に小さな点やオーラを加えたりすることで、一気に繊細な装飾品のような趣が生まれます。幾何学的なパターンが好きな方には特に好まれるタングルで、シェーディングによって一部を暗く沈み込ませると、驚くほどモダンで立体的な仕上がりになります。精密な製図をしているような感覚で、静かな集中力を高めたい時にぴったりのパターンです。",
     "difficulty": "intermediate",
     "category": [
       "official",
@@ -1556,17 +1556,17 @@
       {
         "stepNumber": 1,
         "instruction": "Draw geometric angular shapes",
-        "instructionJa": "幾何学的な角張った形を描きます"
+        "instructionJa": "正確な角度を意識しながら、数本の直線を交差させて土台を作ります"
       },
       {
         "stepNumber": 2,
         "instruction": "Add distinctive angular elements",
-        "instructionJa": "特徴的な角張った要素を追加します"
+        "instructionJa": "交差した部分に小さなオーラやウェイトを加え、結晶のような形を浮き上がらせます"
       },
       {
         "stepNumber": 3,
         "instruction": "Complete geometric pattern",
-        "instructionJa": "幾何学的パターンを完成させます"
+        "instructionJa": "全体のバランスを見ながらディテールを整え、シャープな幾何学模様に仕上げます"
       }
     ],
     "imageUrl": "/images/patterns/ixorus.jpg",
@@ -1584,7 +1584,7 @@
     "nameJa": "キャシーズジレンマ",
     "slug": "kathys-dilemma",
     "description": "A popular official Zentangle pattern with organic flowing forms that create visual interest and complexity.",
-    "descriptionJa": "視覚的な興味と複雑さを作り出す有機的な流れる形を持つ人気の公式ゼンタングルパターンです。",
+    "descriptionJa": "Kathy's Dilemma（キャシーズジレンマ）は、迷路のように入り組み、重なり合う不思議な曲線が特徴的な、非常に瞑想的な公式パターンです。ゼンタングルの初期からの愛用者である Kathy という女性にちなんで名付けられたこのタングルは、「次はどこに線を引こうか？」という心地よい迷い（ジレンマ）の中に、没頭の楽しさを教えてくれます。\n\n描き方は一見複雑そうに見えますが、基本的にはゆるやかな「S字」や「波線」を、既存の線の後ろ側を通るように（Hollibaugh 技法を用いて）重ねていくだけです。出来上がった隙間にオーラを加えたり、背景を黒く塗りつぶしたりすることで、画面に深い森のような複雑さと奥行きが現れます。完成形を完璧に予測することができないため、意図を捨ててペンの動きに身を任せる「ゼン」の精神を体現する、まさにタングラー（描く人）のためのパターンと言えます。",
     "difficulty": "intermediate",
     "category": [
       "official",
@@ -1594,17 +1594,17 @@
       {
         "stepNumber": 1,
         "instruction": "Draw organic flowing base shapes",
-        "instructionJa": "有機的な流れるベース形状を描きます"
+        "instructionJa": "いくつかの緩やかな波状の曲線を、交差させずに自由に描きます"
       },
       {
         "stepNumber": 2,
         "instruction": "Add complex flowing elements",
-        "instructionJa": "複雑な流れる要素を追加します"
+        "instructionJa": "既存の線の「後ろ」を通るように新しい曲線を描き足し、レイヤー状に重ねていきます"
       },
       {
         "stepNumber": 3,
         "instruction": "Build intricate pattern",
-        "instructionJa": "複雑なパターンを構築します"
+        "instructionJa": "隙間にオーラを加えたりシェーディングをしたりして、迷路のような奥行きを完成させます"
       }
     ],
     "imageUrl": "/images/patterns/kathys-dilemma.jpg",
