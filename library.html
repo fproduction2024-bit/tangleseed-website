@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Primary Meta Tags -->
+    <title>タングル図鑑 | タングルシード | ゼンタングル公式タングル160種類</title>
+    <meta name="title" content="タングル図鑑 | タングルシード">
+    <meta name="description"
+        content="160種類のゼンタングル公式タングルを収録。初級から上級まで、検索・フィルタ機能であなたにぴったりのタングルが見つかります。ステップバイステップの描き方動画付き。">
+    <meta name="keywords" content="ゼンタングル,タングル,図鑑,描き方,チュートリアル,初心者,公式タングル,Zentangle,Tangle">
+    <meta name="author" content="株式会社タングルシード">
+    <link rel="canonical" href="https://tangle-seed.co.jp/library.html">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://tangle-seed.co.jp/library.html">
+    <meta property="og:title" content="タングル図鑑 | タングルシード">
+    <meta property="og:description" content="160種類のゼンタングル公式タングルを収録。初級から上級まで、あなたにぴったりのタングルが見つかります。">
+    <meta property="og:image" content="https://tangle-seed.co.jp/images/hero-zentangle.png">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="タングル図鑑 | タングルシード">
+    <meta name="twitter:description" content="160種類のゼンタングル公式タングルを収録。">
+    <meta name="twitter:image" content="https://tangle-seed.co.jp/images/hero-zentangle.png">
+
+    <!-- Additional Meta Tags -->
+    <meta name="robots" content="index, follow">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&family=Noto+Serif+JP:wght@400;600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header class="header">
+        <div class="header__container">
+            <a href="/" class="header__logo">
+                <span class="header__logo-text">Tangleseed</span>
+            </a>
+            <nav class="header__nav">
+                <ul class="header__nav-list">
+                    <li><a href="representative.html">代表メッセージ</a></li>
+                    <li><a href="about.html">私たちについて</a></li>
+                    <li><a href="index.html#services">サービス</a></li>
+                    <li><a href="stories.html">お客様の声</a></li>
+                    <li><a href="library.html" class="active">タングル図鑑</a></li>
+                    <li><a href="corporate.html" class="header__nav-cta">法人・提携のご相談</a></li>
+                </ul>
+            </nav>
+            <button class="header__menu-toggle" aria-label="メニューを開く">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="library-hero">
+        <div class="container">
+            <div class="library-hero__content">
+                <span class="badge">TANGLE LIBRARY</span>
+                <h1 class="library-hero__title">タングル図鑑</h1>
+                <p class="library-hero__subtitle">
+                    初級から上級まで、あなたにぴったりのタングルが見つかります。
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Search and Filters -->
+    <section class="library-filters">
+        <div class="container">
+            <div class="filter-grid">
+                <!-- Search Box -->
+                <div class="filter-item filter-item--full">
+                    <input type="text" id="search-input" class="filter-input" placeholder="タングル名で検索...">
+                </div>
+
+                <!-- Difficulty Filter -->
+                <div class="filter-item">
+                    <select id="difficulty-filter" class="filter-select">
+                        <option value="all">すべてのレベル</option>
+                        <option value="beginner">初級</option>
+                        <option value="intermediate">中級</option>
+                        <option value="advanced">上級</option>
+                    </select>
+                </div>
+
+                <!-- Category Filter -->
+                <div class="filter-item filter-item--double">
+                    <select id="category-filter" class="filter-select">
+                        <option value="all">すべてのカテゴリ</option>
+                        <!-- Categories will be populated dynamically -->
+                    </select>
+                </div>
+            </div>
+
+            <!-- Results Count -->
+            <div class="filter-results">
+                <span id="filtered-count">0</span>件のタングルが見つかりました
+            </div>
+        </div>
+    </section>
+
+    <!-- Pattern Grid -->
+    <section class="library-grid-section">
+        <div class="container">
+            <div id="patterns-grid" class="library-grid">
+                <!-- Pattern cards will be dynamically inserted here -->
+            </div>
+
+            <!-- No Results Message -->
+            <div id="no-results" class="library-no-results" style="display: none;">
+                <p class="library-no-results__text">該当するタングルが見つかりませんでした</p>
+                <button id="reset-filters" class="btn btn--secondary">フィルターをリセット</button>
+            </div>
+
+            <!-- Loading Spinner -->
+            <div id="loading" class="library-loading">
+                <div class="spinner"></div>
+                <p>タングルを読み込み中...</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta">
+        <div class="container">
+            <div class="cta__content">
+                <h2 class="cta__title">もっと学びたい方へ</h2>
+                <p class="cta__description">
+                    無料の7日間体験クラスで、さらに多くのタングルを学びましょう。
+                </p>
+                <a href="https://hxzk7sue.autosns.app/addfriend/s/KaGnyj5v0d/@255jknci" target="_blank"
+                    rel="noopener noreferrer" class="btn btn--primary btn--large">LINE友だち登録をして講座を受け取る</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__grid">
+                <div class="footer__brand">
+                    <span class="footer__logo">Tangleseed</span>
+                    <p class="footer__tagline">15分の静寂で、社会を整える。</p>
+                </div>
+                <div class="footer__links">
+                    <h4>サイトマップ</h4>
+                    <ul>
+                        <li><a href="#about">私たちについて</a></li>
+                        <li><a href="#services">サービス</a></li>
+                        <li><a href="library.html">タングル図鑑</a></li>
+                        <li><a href="corporate.html">法人・提携のご相談</a></li>
+                    </ul>
+                </div>
+                <div class="footer__links">
+                    <h4>法的情報</h4>
+                    <ul>
+                        <li><a href="about.html#company">会社概要</a></li>
+                        <li><a href="privacy.html">プライバシーポリシー</a></li>
+                        <li><a href="legal.html">特定商取引法に基づく表記</a></li>
+                    </ul>
+                </div>
+                <div class="footer__contact">
+                    <h4>お問い合わせ</h4>
+                    <p>株式会社タングルシード</p>
+                    <a href="mailto:info@tangle-seed.co.jp" class="footer__email">info@tangle-seed.co.jp</a>
+                </div>
+            </div>
+            <div class="footer__bottom">
+                <p>&copy; 2026 Tangleseed Inc. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+    <script src="js/library.js"></script>
+    <script src="js/pattern-detail.js"></script>
+</body>
+
+</html>
