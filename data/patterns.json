@@ -1225,7 +1225,7 @@
     "nameJa": "スタティック",
     "slug": "static",
     "description": "An official Zentangle pattern and one of the foundational eight tangles. Static features simple parallel lines creating a hatching effect, perfect for adding texture and shading.",
-    "descriptionJa": "公式ゼンタングルパターンで、基本8タングルの1つ。Staticはシンプルな平行線でハッチング効果を作り、テクスチャーとシェーディングを加えるのに最適です。",
+    "descriptionJa": "Static（スタティック）は、ゼンタングルの公式パターンの1つで、鋭いジグザグの線と平行なハッチングを組み合わせた、非常にエネルギッシュな幾何学パターンです。テレビの砂嵐や静電気のような、あるいは雷光のような鋭い動きを感じさせるこのパターンは、画面に視覚的なリズムと強いコントラストをもたらします。基本の8タングルの1つとしても重要視されており、初心者が直線と角度をマスターするのに最適です。\n\n描く際は、まずジグザグのメインラインを引き、その隙間を埋めるように細い平行線を丁寧に描き込んでいきます。この「ハッチング」と呼ばれる技法を繰り返すことで、面に密度と重厚感が生まれます。また、全ての隙間を均等に埋めるのではなく、あえて白い部分を残したり、特定の場所の線を太くしたりすることで、金属のような光沢や劇的な陰影を表現することも可能です。抽象的な背景としても、際立ったアクセントとしても、非常に力強く機能するタングルです。",
     "difficulty": "beginner",
     "category": [
       "official",
@@ -1236,17 +1236,17 @@
       {
         "stepNumber": 1,
         "instruction": "Draw a series of parallel lines in one direction",
-        "instructionJa": "一方向に平行線のシリーズを描きます"
+        "instructionJa": "平行なジグザグのメインラインを、強弱をつけながら描き込みます"
       },
       {
         "stepNumber": 2,
         "instruction": "Add another set of parallel lines crossing at an angle",
-        "instructionJa": "角度をつけて交差する別の平行線セットを追加します"
+        "instructionJa": "メインラインの隙間を埋めるように、角度をつけた細い平行線（ハッチング）を追加します"
       },
       {
         "stepNumber": 3,
         "instruction": "Optional: Add more layers of lines to create deeper shading",
-        "instructionJa": "オプション：より深い陰影を作るために線の層を追加します"
+        "instructionJa": "必要に応じて線の層を重ね、深みのある影やドラマチックなコントラストを作り出します"
       }
     ],
     "imageUrl": "/images/patterns/static.jpg",
@@ -1267,7 +1267,7 @@
     "nameJa": "プランタン",
     "slug": "printemps",
     "description": "Printemps is an official Zentangle pattern introduced by co-founder Maria Thomas. The name \"Printemps\" is French for \"Spring,\" perfectly capturing the joyful, playful nature of this fun tangle. With its delicate vines, organic flowing elements, and spring-like character, Printemps brings a sense of renewal and growth to any tile. Variations like \"Crazy Printemps\" and \"weighted Printemps\" offer even more creative possibilities. A favorite for its cheerful energy and versatility.",
-    "descriptionJa": "Printempsは、共同創設者Maria Thomasによって紹介された公式ゼンタングルパターンです。名前「Printemps」はフランス語で「春」を意味し、この楽しいタングルの喜びと遊び心のある性質を完璧に捉えています。繊細な蔦、有機的な流れる要素、春らしい特徴で、Printempsはあらゆるタイルに更新と成長の感覚をもたらします。「Crazy Printemps」や「weighted Printemps」などのバリエーションは、さらに多くの創造的な可能性を提供します。陽気なエネルギーと汎用性で人気のパターンです。",
+    "descriptionJa": "Printemps（プランタン）は、ゼンタングルの共同創設者である Maria Thomas によって紹介された、最も愛されている公式パターンの1つです。「Printemps」という言葉はフランス語で「春」を意味し、その名の通り、春の訪れを感じさせる芽吹きや、喜びにあふれた遊び心を象徴しています。渦巻き（スパイラル）をベースにしたこのパターンは、リズミカルにペンを動かすだけで、タイルの上に生命力豊かな動きを生み出してくれます。\n\n基本的な描き方は非常にシンプルで、中心から外側へ向かって円を描くように渦を巻いていくだけです。しかし、それぞれの渦を隣の渦にそっと寄り添わせるように（オーラを重ねるように）配置していくことで、画面全体に美しい調和が生まれます。大きさを変えて描いたり、中心を塗りつぶしたり、あるいは特定の線を太くする「ウェイト」を加えることで、宝石のような煌めきや奥行きを出すことも可能です。どのようなスタイルにもフィットする、汎用性が高く、描くたびに心が晴れやかになるような美しいタングルです。",
     "difficulty": "intermediate",
     "category": [
       "official",
@@ -1278,17 +1278,17 @@
       {
         "stepNumber": 1,
         "instruction": "Draw flowing vine-like curves",
-        "instructionJa": "流れる蔦のような曲線を描きます"
+        "instructionJa": "中心から外側に向かって、心地よいリズムで渦巻き模様を描き始めます"
       },
       {
         "stepNumber": 2,
         "instruction": "Add small leaf shapes along the vines",
-        "instructionJa": "蔦に沿って小さな葉の形を追加します"
+        "instructionJa": "新しい渦を隣の渦に優しく寄り添わせるように描き、隙間を埋めていきます"
       },
       {
         "stepNumber": 3,
         "instruction": "Complete with buds and spring-like details",
-        "instructionJa": "蕾と春のようなディテールで完成させます"
+        "instructionJa": "渦の中心や重なり合う部分に加筆やシェーディングを施し、春のような躍動感を仕上げます"
       }
     ],
     "imageUrl": "/images/patterns/printemps.jpg",
@@ -1309,7 +1309,7 @@
     "nameJa": "ダブリュー2",
     "slug": "w2",
     "description": "W2, which stands for \"Warp and Weft\" (the two sets of yarns in weaving), is an official Zentangle pattern created by co-founders Rick Roberts and Maria Thomas. This tangle resembles weaving and is great fun to draw with potential for interesting variations through shading and line work. One of several weaving-inspired tangles, W2 uses straight lines connecting squares to create the woven effect. It has a variant called Huggins that uses curved lines connecting dots instead of squares.",
-    "descriptionJa": "W2は「Warp and Weft」（織物の2セットの糸）の略で、共同創設者Rick RobertsとMaria Thomasによって作成された公式ゼンタングルパターンです。このタングルは織物に似ており、シェーディングとラインワークによる面白いバリエーションの可能性を持つ、描くのが楽しいパターンです。いくつかの織物にインスパイアされたタングルの1つで、W2は正方形を接続する直線を使用して織りの効果を作成します。正方形の代わりに点を接続する曲線を使用するHugginsと呼ばれるバリエーションがあります。",
+    "descriptionJa": "W2（ダブリューツー）は、織物の経糸（Warp）と緯糸（Weft）を意味する、幾何学的で構築的な美しさを持つ公式パターンです。共同創設者の Rick Roberts と Maria Thomas によって考案され、その名の通り、まるで布が編み込まれているかのような見事な視覚効果を生み出します。シンプルなグリッドベースのパターンでありながら、完成した時の複雑で知的な印象は、描く人にも見る人にも大きな満足感を与えてくれます。\n\n描き方は、まず正方形を格子状に並べ、それらを曲線や短い直線で繋いでいくステップを踏みます。この時、「オーラ」のテクニックを使って線を重ねていくことで、実際に糸が重なり合っているような奥行きが生まれます。W2は、シェーディングが非常に効果的に機能するパターンの1つで、重なり合う部分の「下」にあたる場所に影を入れることで、驚くほどリアルな質感が現れます。Huggins（ハギンス）というパターンの親戚でもあり、ゼンタングルにおける「編み込み」の楽しさを体験するのに欠かせないパターンです。",
     "difficulty": "beginner",
     "category": [
       "official",
@@ -1320,17 +1320,17 @@
       {
         "stepNumber": 1,
         "instruction": "Draw wavy parallel lines",
-        "instructionJa": "波状の平行線を描きます"
+        "instructionJa": "ガイドとなる正方形のグリッド（点）を等間隔に配置します"
       },
       {
         "stepNumber": 2,
         "instruction": "Add flowing wave patterns",
-        "instructionJa": "流れる波のパターンを追加します"
+        "instructionJa": "正方形同士を繋ぐように線を加え、編み込みの土台を作ります"
       },
       {
         "stepNumber": 3,
         "instruction": "Build up the organic flow",
-        "instructionJa": "有機的な流れを構築します"
+        "instructionJa": "線の端を丸く繋ぎ、オーラを加えることで立体的な織り込み模様を完成させます"
       }
     ],
     "imageUrl": "/images/patterns/w2.jpg",
@@ -1351,7 +1351,7 @@
     "nameJa": "アクアフルール",
     "slug": "aquafleur",
     "description": "An official Zentangle pattern inspired by water and flowers, featuring graceful flowing organic forms that evoke aquatic beauty.",
-    "descriptionJa": "水と花にインスパイアされた公式ゼンタングルパターンで、水の美しさを呼び起こす優雅な流れる有機的形態が特徴です。",
+    "descriptionJa": "Aquafleur（アクアフルール）は、水（Aqua）と花（Fleur）が融合したような、優雅で華やかな公式パターンです。波打つリボンのような流線型のパーツを重ねていくことで、まるで深海に咲く花や、水面に浮かぶドレスの裾のような、幻想的な美しさが生まれます。ゼンタングルの数あるパターンの中でも、非常に立体的で躍動感があり、描くたびに新しい発見がある魅力的なタングルです。\n\nこのパターンの鍵となるのは、最初に描く「ティアドロップ（しずく型）」の配置と、その周りに丁寧に重ねていく「オーラ」の線です。しずく型の先端から流れるように線を引き、それらを等間隔に繰り返すことで、布のひだ（プリーツ）のような質感が現れます。シェーディングによって谷の部分を深く、山の部分を明るく残すことで、紙の上に圧倒的な存在感を持つ3Dの花が立ち上がります。他の有機的なパターンと合わせることで、タイル全体にドラマチックな品格を与えてくれるパターンです。",
     "difficulty": "intermediate",
     "category": [
       "official",
@@ -1362,17 +1362,17 @@
       {
         "stepNumber": 1,
         "instruction": "Draw water-like flowing curves",
-        "instructionJa": "水のような流れる曲線を描きます"
+        "instructionJa": "中心から放射状に、しずく型やカーブしたガイドラインを描きます"
       },
       {
         "stepNumber": 2,
         "instruction": "Add flower-like elements",
-        "instructionJa": "花のような要素を追加します"
+        "instructionJa": "各パーツの周りに丁寧にオーラを重ねていき、布のひだのような曲線を作ります"
       },
       {
         "stepNumber": 3,
         "instruction": "Complete with aquatic details",
-        "instructionJa": "水的なディテールで完成させます"
+        "instructionJa": "重なり合う部分に影（シェーディング）を加え、水の流れや花びらのような立体感を強調します"
       }
     ],
     "imageUrl": "/images/patterns/aquafleur.jpg",
@@ -1392,7 +1392,7 @@
     "nameJa": "オーラノット",
     "slug": "auraknot",
     "description": "An official Zentangle pattern that combines the aura technique with knot-like forms, creating dimensional interwoven effects.",
-    "descriptionJa": "オーラ技法と結び目のような形を組み合わせた公式ゼンタングルパターンで、立体的な織り交ぜ効果を作り出します。",
+    "descriptionJa": "Auraknot（オーラノット）は、ゼンタングルの基本的な手法である「オーラ（縁取り）」を極めることで、複雑な幾何学模様を創り出す公式パターンです。三角形や四角形、六角形などのシンプルな多角形をあらかじめ配置し、それぞれの辺から反対の頂点に向かってオーラの線を何層にも重ねていくことで、まるで複数のパーツが複雑に編み込まれた（Knot：結び目）ような視覚効果が生まれます。\n\n一見すると計算し尽くされたデザインに見えますが、実は描き方は非常に論理的で分かりやすく、集中して線を引く「マインドフル」な時間を楽しむのに最適です。オーラの数や間隔を変えることで、タイトな織物のように見せることも、広がりを持たせた軽やかな模様にすることも可能です。幾何学的なカッチリとした美しさがあるため、Mooka（ムーカ）のような流動的なパターンと組み合わせると、デザインに絶妙なメリハリが生まれ、洗練された仕上がりになります。",
     "difficulty": "intermediate",
     "category": [
       "official",
@@ -1403,17 +1403,17 @@
       {
         "stepNumber": 1,
         "instruction": "Draw interwoven knot shapes",
-        "instructionJa": "織り交ぜた結び目の形を描きます"
+        "instructionJa": "ガイドとなる多角形（三角形や四角形）を配置します"
       },
       {
         "stepNumber": 2,
         "instruction": "Add aura lines around the knots",
-        "instructionJa": "結び目の周りにオーラの線を追加します"
+        "instructionJa": "各辺から隣り合う辺へと続くオーラの線を、幾層にも重なるように描き足します"
       },
       {
         "stepNumber": 3,
         "instruction": "Build dimensional effect",
-        "instructionJa": "立体効果を構築します"
+        "instructionJa": "編み込みの重なりを意識して影（シェーディング）を加え、強固な結び目のような立体感を表現します"
       }
     ],
     "imageUrl": "/images/patterns/auraknot.jpg",
