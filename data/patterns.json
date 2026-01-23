@@ -1054,12 +1054,7 @@
     ]
   },
   {
-    "id": "26",
-    "name": "Bales",
-    "nameJa": "ベイルズ",
-    "slug": "bales",
-    "description": "Bales is a fun official Zentangle pattern created by Maria Thomas that uses a grid to get started. Simple rice or seed shapes are built around the grid in both directions to complete the tangle. Bales offers an almost mind-boggling array of possible variations, including adding different shapes between the flowers (dots, circles, diamonds), shading, and filling in shapes as the pattern takes form. Martha Huggins has demonstrated beautiful variations using diamond shapes instead of rice shapes, showcasing this pattern incredible versatility.",
-    "descriptionJa": "ゼンタングルアートでよく使われる公式パターンで、丸みを帯びた有機的な形が特徴です。",
+    "descriptionJa": "Bales（ベイルズ）は、ゼンタングルの共同創設者 Maria Thomas によって考案された、非常に人気のある公式パターンです。このパターンの特徴は、あらかじめ描いたグリッド（格子）を土台にして、その線に沿って「米粒」や「種」のような細長い楕円形を描き込んでいく点にあります。縦横のグリッドをベースにするため、初心者でも形を整えやすく、それでいて完成するとお花が並んでいるような、美しく有機的な幾何学模様が現れます。\n\nBales の最大の魅力は、その無限のバリエーションにあります。基本の形の中にドットや小さな円、ダイヤモンド形を描き込んだり、シェーディング（影）の付け方を工夫したりすることで、全く異なる表情を見せてくれます。また、グリッドをあえて歪ませて描く「クレイジー・ベイルズ」に挑戦すれば、より躍動感のあるダイナミックな表現も可能です。ゼンタングルの楽しさを凝縮したような、多才で愛らしいパターンです。",
     "difficulty": "beginner",
     "category": [
       "official",
@@ -1092,12 +1087,7 @@
     ]
   },
   {
-    "id": "27",
-    "name": "Cubine",
-    "nameJa": "キュービン",
-    "slug": "cubine",
-    "description": "An official Zentangle pattern featuring cubic and geometric forms with dimensional effects.",
-    "descriptionJa": "立方体と幾何学的な形が特徴の公式ゼンタングルパターンで、立体的効果があります。",
+    "descriptionJa": "Cubine（キュービン）は、正方形のグリッドから生まれる幾何学的で立体的な公式パターンです。一見すると複雑な3Dの立方体が並んでいるように見えますが、実は非常にシンプルなステップの積み重ねで描くことができます。まずグリッドを描き、その中に小さな正方形を配置して対角線で繋いでいくというプロセスは、まるでパズルを解くような心地よい瞑想感を与えてくれます。\n\nこのパターンの面白さは、シェーディング（影付け）によって奥行きが劇的に変化する点にあります。特定の面を塗りつぶしたり、グラファイトで影を加えたりすることで、紙の上に不思議な奥行きのある空間が立ち上がります。幾何学的なカッチリとした印象があるため、有機的な花や葉のパターン（例えば Mooka や Flux など）と組み合わせると、デザイン全体が引き締まり、素晴らしいコントラストを生み出すことができます。",
     "difficulty": "intermediate",
     "category": [
       "official",
@@ -1131,12 +1121,7 @@
     ]
   },
   {
-    "id": "28",
-    "name": "Gourdgeous",
-    "nameJa": "ゴージャス",
-    "slug": "gourdgeous",
-    "description": "An official Zentangle pattern inspired by gourd shapes, featuring organic flowing forms.",
-    "descriptionJa": "ひょうたんの形にインスパイアされた公式ゼンタングルパターンで、有機的な流れる形が特徴です。",
+    "descriptionJa": "Gourdgeous（ゴージャス）は、その名の通り「ひょうたん（Gourd）」の形にインスパイアされた、非常に有機的で美しい公式パターンです。ゼンタングルの共同創設者である Maria Thomas によって、カボチャやひょうたんが並ぶ秋の風景から着想を得て創作されました。このパターンは、ふっくらとした丸みを持つ縦のセグメントを並べて描くことで、自然界にあるような生命力豊かな造形を作り出します。\n\n単純な曲線で構成されていますが、シェーディングによって驚くほどドラマチックな変化を見せるのが特徴です。セグメントの根元や重なり合う部分に影を落とし、中央にハイライト（光）を残すことで、まるで本物のひょうたんがそこにあるような、艶やかな立体感を表現できます。季節を選ばず、タイルの中心に配置して主役にすることも、隅にさりげなく添えることもできる、非常にエレガントで使い勝手の良いパターンです。",
     "difficulty": "intermediate",
     "category": [
       "official",
@@ -1168,12 +1153,7 @@
     ]
   },
   {
-    "id": "29",
-    "name": "Bunzo",
-    "nameJa": "ブンゾ",
-    "slug": "bunzo",
-    "description": "An official Zentangle pattern created by Zentangle Inc., featuring distinctive circular and organic elements.",
-    "descriptionJa": "Zentangle Inc.によって作成された公式パターンで、特徴的な円形と有機的要素があります。",
+    "descriptionJa": "Bunzo（ブンゾ）は、貝殻や扇のような、美しい同心円状の曲線が重なり合う公式パターンです。エドワード・ゴーリーの作品に登場する風変わりな植物のような、独特の雰囲気を持っています。一つの点から始まる扇形のカーブを次々と重ねていくプロセスは、非常にリズミカルで、描き進めるうちに画面の中に不思議な深みが生まれていきます。\n\nこのパターンの面白さは、曲線の「オーラ（縁取り）」をどのくらい密にするか、あるいは一部を黒く塗りつぶすかによって、見た目の重量感がガラリと変わる点にあります。アール・デコ様式の装飾のような気品があり、単体で描いても、あるいは他のパターンを包み込むような境界線として使っても、画面全体に力強くも優雅な印象を与えてくれます。特に、曲線の端に少し厚みを持たせる「ラウンディング」という技法を加えると、より一層洗練された仕上がりになります。",
     "difficulty": "intermediate",
     "category": [
       "official",
@@ -1206,12 +1186,7 @@
     ]
   },
   {
-    "id": "30",
-    "name": "Amaze",
-    "nameJa": "アメイズ",
-    "slug": "amaze",
-    "description": "An official Zentangle pattern also known as Stiritup, featuring continuous random lines that create maze-like paths.",
-    "descriptionJa": "Stiritupとしても知られる公式ゼンタングルパターンで、迷路のような経路を作る連続的なランダムラインが特徴です。",
+    "descriptionJa": "Amaze（アメイズ）は、自分自身と交差しない一本の線（ストリング）を、まるで放浪するように画面いっぱいに描いていく、非常に自由度の高い公式パターンです。「Stiritup（ステア・イット・アップ：かき混ぜる）」という別名でも知られており、その名の通り、迷路のような複雑で不思議な経路を作り出します。事前に形を決めず、手の動くまま、線の向くままに描き進めるプロセスは、ゼンタングルの究極の瞑想体験と言えるでしょう。\n\nシンプルながら、描き手の個性が最も現れやすいパターンの一つです。線の密度を高くして細密な迷路にしたり、太い線と細い線を組み合わせて奥行きを出したりと、自分だけの「迷宮」を創り出すことができます。また、線の隙間をドットや小さな円で埋めたり、パターンの境界として活用したりするのも効果的です。計画性を手放し、ただ今この瞬間のペン運びを楽しみ、結果に驚かされる（Amaze）――そんなゼンタングルの哲学を体現するようなパターンです。",
     "difficulty": "beginner",
     "category": [
       "official",
