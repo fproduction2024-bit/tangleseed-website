@@ -36,53 +36,74 @@ async function loadPatterns() {
         if (!response.ok) {
             throw new Error('Failed to load patterns');
         }
-        allPatterns = await response.json();
-        console.log(`Loaded ${allPatterns.length} patterns`);
+        const rawPatterns = await response.json();
+        // Only include patterns with videos
+        allPatterns = rawPatterns.filter(pattern => !!pattern.youtubeVideoId);
+        console.log(`Loaded ${allPatterns.length} video-enabled patterns (out of ${rawPatterns.length} total)`);
     } catch (error) {
         console.error('Error loading patterns:', error);
         showError('タングルの読み込みに失敗しました。');
     }
 }
 
-// Populate category filter with unique categories
-function populateCategoryFilter() {
-    const categories = new Set();
-    allPatterns.forEach(pattern => {
-        pattern.category.forEach(cat => categories.add(cat));
-    });
+// Simplified Category Definitions
+const CORE_CATEGORIES = {
+    'organic': {
+        label: '有機的',
+        tags: ['organic', 'floral', 'botanical', 'nature', 'flowing', 'delicate', 'leaf', 'teardrop', 'vines', 'spring', 'gourd', 'circular', 'dynamic', 'movement', 'ripple', 'rolling', 'marine', 'organic']
+    },
+    'geometric': {
+        label: '幾何学的',
+        tags: ['geometric', '3d', 'illusion', 'angular', 'cubic', 'linear', 'starburst', 'architectural', 'crystalline', 'radiating', 'spiral']
+    },
+    'grid': {
+        label: 'グリッド系',
+        tags: ['grid', 'weaving', 'knots', 'w2-family', 'connected']
+    },
+    'texture': {
+        label: 'テクスチャ・塗りつぶし',
+        tags: ['texture', 'textured', 'fill', 'shading', 'hatching', 'dots', 'scattered']
+    },
+    'technique': {
+        label: 'テクニック・装飾',
+        tags: ['technique', 'enhancement', 'enhanced', 'decorative', 'featured', 'popular', 'artistic', 'bold', 'playful', 'energetic', 'complex', 'simple', 'paired', 'variation']
+    }
+};
 
-    const sortedCategories = Array.from(categories).sort();
-    sortedCategories.forEach(category => {
+// Populate category filter with core categories
+function populateCategoryFilter() {
+    // Clear existing options except "All"
+    categoryFilter.innerHTML = '<option value="all">すべてのカテゴリ</option>';
+
+    Object.entries(CORE_CATEGORIES).forEach(([id, info]) => {
         const option = document.createElement('option');
-        option.value = category;
-        option.textContent = getCategoryName(category);
+        option.value = id;
+        option.textContent = info.label;
         categoryFilter.appendChild(option);
     });
 }
 
-// Get Japanese category name
-function getCategoryName(category) {
-    const categoryNames = {
-        'official': '公式タングル',
-        'foundational': '基本タングル',
-        'organic': '有機的',
-        'geometric': '幾何学的',
-        'flowing': '流れる',
-        'fill': '塗りつぶし',
-        'texture': 'テクスチャ',
-        'weaving': '織り',
-        'grid': 'グリッド',
-        'floral': '花柄',
-        'enhancement': '強化',
-        'shading': 'シェーディング',
-        'technique': 'テクニック',
-        '3d': '3D',
-        'illusion': '錯視',
-        'featured': '注目',
-        'hybrid': 'ハイブリッド',
-        'simple': 'シンプル'
+// Get Japanese category name (using simplified core categories)
+function getCategoryName(idOrTag) {
+    // If it's a core category ID, return its label
+    if (CORE_CATEGORIES[idOrTag]) {
+        return CORE_CATEGORIES[idOrTag].label;
+    }
+
+    // If it's a technical tag, find which core category it belongs to
+    for (const [id, info] of Object.entries(CORE_CATEGORIES)) {
+        if (info.tags.includes(idOrTag) || id === idOrTag) {
+            return info.label;
+        }
+    }
+
+    // Special labels for foundational/official tags if they need to be displayed
+    const specialLabels = {
+        'official': '公式',
+        'foundational': '基本'
     };
-    return categoryNames[category] || category;
+
+    return specialLabels[idOrTag] || idOrTag;
 }
 
 // Setup event listeners
@@ -114,7 +135,18 @@ function filterPatterns() {
         const matchesDifficulty = difficulty === 'all' || pattern.difficulty === difficulty;
 
         // Category filter
-        const matchesCategory = category === 'all' || pattern.category.includes(category);
+        let matchesCategory = false;
+        if (category === 'all') {
+            matchesCategory = true;
+        } else {
+            // Check if any of the pattern's categories match the selected core category's tags
+            const coreInfo = CORE_CATEGORIES[category];
+            if (coreInfo) {
+                matchesCategory = pattern.category.some(cat =>
+                    coreInfo.tags.includes(cat) || cat === category
+                );
+            }
+        }
 
         return matchesSearch && matchesDifficulty && matchesCategory;
     });
@@ -155,8 +187,23 @@ function createPatternCard(pattern) {
     const card = document.createElement('div');
     card.className = 'pattern-card';
 
-    // Pattern image (with placeholder if not available)
-    const imageUrl = pattern.imageUrl || '/images/patterns/placeholder.jpg';
+    // Pattern image (prioritize specialized image, then YouTube thumbnail, then placeholder)
+    let imageUrl = pattern.imageUrl;
+
+    // If it's a default local path and we have a YouTube video, use the YouTube thumbnail instead
+    // (Since we don't have local files for most patterns yet)
+    const isLocalPath = imageUrl && imageUrl.startsWith('/images/patterns/');
+    const isPlaceholder = imageUrl === '/images/patterns/placeholder.jpg';
+
+    if (pattern.youtubeVideoId && (!imageUrl || isLocalPath || isPlaceholder)) {
+        // Use medium quality YouTube thumbnail for cards
+        imageUrl = `https://img.youtube.com/vi/${pattern.youtubeVideoId}/mqdefault.jpg`;
+    }
+
+    if (!imageUrl) {
+        imageUrl = '/images/patterns/placeholder.jpg';
+    }
+
     const patternUrl = `?pattern=${pattern.slug}`;
 
     card.innerHTML = `
@@ -201,6 +248,7 @@ function getDifficultyName(difficulty) {
 
 // Truncate text to specified length
 function truncateText(text, maxLength) {
+    if (!text) return '';
     if (text.length <= maxLength) return text;
     return text.substring(0, maxLength) + '...';
 }
@@ -251,24 +299,25 @@ function checkForDetailView() {
 
 // Load pattern detail view
 function loadPatternDetail(slug) {
-    const pattern = allPatterns.find(p => p.slug === slug);
+    const pattern = allPatterns.find(p => p.slug === slug || String(p.id) === slug);
 
     if (!pattern) {
         showError('タングルが見つかりませんでした。');
         return;
     }
 
-    // Hide list view elements
+    // Hide list view elements and global CTA
     document.querySelector('.library-hero')?.style.setProperty('display', 'none');
     document.querySelector('.library-filters')?.style.setProperty('display', 'none');
     document.querySelector('.library-grid-section')?.style.setProperty('display', 'none');
+    document.querySelector('.cta')?.style.setProperty('display', 'none');
 
     // Create and show detail view
     const detailSection = document.createElement('section');
     detailSection.className = 'pattern-detail';
     detailSection.innerHTML = createPatternDetailHTML(pattern);
 
-    // Insert detail section after header (since hero is now hidden)
+    // Insert detail section after header
     const header = document.querySelector('.header');
     header.after(detailSection);
 
@@ -320,96 +369,74 @@ function createPatternDetailHTML(pattern) {
             <!-- Pattern Header -->
             <section class="pattern-detail-header">
                 <div class="pattern-detail-header__content">
-                    <a href="?library" class="back-link">← 図鑑に戻る</a>
+                    <a href="library.html" class="back-link">← 図鑑に戻る</a>
                     <span class="badge badge--${pattern.difficulty === 'beginner' ? 'green' : pattern.difficulty === 'intermediate' ? 'yellow' : 'red'}">
                         ${getDifficultyName(pattern.difficulty)}
                     </span>
                     <h1 class="pattern-detail-header__title">${pattern.nameJa}</h1>
                     <p class="pattern-detail-header__subtitle">${pattern.name}</p>
-                    <div class="pattern-detail-header__description">${descriptionHTML}</div>
                     <div class="pattern-detail-header__tags">
-                        ${pattern.category.map(cat => `<span class="badge badge-outline">${getCategoryName(cat)}</span>`).join('')}
+                        ${[...new Set(pattern.category
+        .map(cat => getCategoryName(cat))
+        .filter(name => name !== '公式' && name !== '基本')
+    )].map(name => `<span class="badge badge-outline">${name}</span>`).join('')}
                     </div>
                 </div>
             </section>
 
-            <!-- Official Pattern Banner -->
-            ${isOfficial ? `
-            <section class="official-pattern-banner">
-                <div class="official-pattern-banner__content">
-                    <div class="official-pattern-banner__badges">
-                        <span class="badge badge--gold">
-                            ✨ 公式Zentangle®タングル
-                        </span>
-                        ${isFoundational ? `
-                        <span class="badge badge--teal">
-                            📚 基本8タングル
-                        </span>
-                        ` : ''}
-                    </div>
-                    <p class="official-pattern-banner__text">
-                        このパターンは、<strong style="color: var(--color-accent);">Zentangle創始者のRick Roberts（リック・ロバーツ）とMaria Thomas（マリア・トーマス）</strong>によって生み出された公式パターンです。
-                    </p>
-                    ${isFoundational ? `
-                    <p class="official-pattern-banner__text">
-                        <strong>最初の8つの基本タングル</strong>の1つとして、初心者が最初に学ぶべきタングルとして推奨されています。
-                    </p>
-                    ` : ''}
-                </div>
-            </section>
-            ` : ''}
-
-            <!-- YouTube Tutorial -->
-            ${pattern.youtubeVideoId ? `
-            <section class="youtube-section">
-                <div class="container">
-                    <h2 class="section-title">動画チュートリアル</h2>
-                    <div class="youtube-embed">
-                        <iframe 
-                            src="https://www.youtube.com/embed/${pattern.youtubeVideoId}" 
-                            frameborder="0" 
-                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-                            allowfullscreen>
-                        </iframe>
-                    </div>
-                </div>
-            </section>
-            ` : ''}
-            
-            <!-- Step-by-Step Instructions -->
-            ${pattern.steps && pattern.steps.length > 0 ? `
-            <section class="steps-section">
-                <div class="container">
-                    <h2 class="section-title">描き方のステップ</h2>
-                    <div class="steps-grid">
-                        ${pattern.steps.map(step => `
-                        <div class="step-card">
-                            <div class="step-card__number">${step.stepNumber}</div>
-                            <div class="step-card__content">
-                                <h3 class="step-card__title">${step.instructionJa}</h3>
-                            </div>
+            <div class="sidebar-layout">
+                <div class="sidebar-content">
+                    <!-- YouTube Tutorial -->
+                    ${pattern.youtubeVideoId ? `
+                    <section class="youtube-section" style="margin-top: 0;">
+                        <div class="youtube-embed">
+                            <iframe 
+                                src="https://www.youtube.com/embed/${pattern.youtubeVideoId}" 
+                                frameborder="0" 
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                                allowfullscreen>
+                            </iframe>
                         </div>
-                        `).join('')}
+                    </section>
+                    ` : ''}
+                    
+                    <!-- Pattern Description & Official Info -->
+                    <section class="pattern-description-section" style="margin-bottom: var(--space-xl);">
+                        <h2 class="section-title">タングルの解説</h2>
+                        
+                        ${isOfficial ? `
+                        <div class="official-pattern-banner" style="margin-bottom: var(--space-lg); padding: var(--space-md); border-left: 4px solid var(--color-accent); background: rgba(201, 168, 108, 0.05);">
+                            <div class="official-pattern-banner__badges" style="margin-bottom: 0.5rem;">
+                                <span class="badge badge--gold">✨ 公式Zentangle®タングル</span>
+                                ${isFoundational ? '<span class="badge badge--teal">📚 基本8タングル</span>' : ''}
+                            </div>
+                            <p class="official-pattern-banner__text" style="font-size: 0.95rem; opacity: 0.9;">
+                                このパターンは、<strong>Zentangle創設者のRick RobertsとMaria Thomas</strong>によって生み出された公式パターンです。
+                            </p>
+                        </div>
+                        ` : ''}
+
+                        <div class="pattern-detail-header__description" style="line-height: 1.8;">
+                            ${descriptionHTML}
+                        </div>
+                    </section>
+                </div>
+
+                <!-- Sidebar Sidebar -->
+                <aside class="sidebar-sticky">
+                    <div class="widget-gift">
+                        <span class="widget-gift__badge">期間限定プレゼント</span>
+                        <h3 class="widget-gift__title">15分の静寂で、<br>心を整える。</h3>
+                        <div class="widget-gift__image">
+                            <img src="images/gift-starter-guide.png" alt="無料ガイドプレビュー">
+                        </div>
+                        <p class="widget-gift__text">
+                            ゼンタングルの基本が学べる初心者ガイド&動画をLINE登録で無料プレゼント中。
+                        </p>
+                        <a href="gift.html" class="btn btn--primary widget-gift__cta">無料で受け取る</a>
                     </div>
-                </div>
-            </section>
-            ` : ''}
-            
-            <!-- CTA -->
-            <section class="section bg-gradient-to-br from-accent-gold/10 to-accent-teal/10" style="background: linear-gradient(135deg, rgba(201, 168, 108, 0.1) 0%, rgba(90, 125, 124, 0.1) 100%); padding: var(--space-xl) 0;">
-                <div class="container" style="max-width: 800px; text-align: center;">
-                    <h2 class="section-title">もっと学びたい方へ</h2>
-                    <p style="font-size: 1.125rem; color: var(--color-medium-gray); margin-bottom: var(--space-lg);">
-                        無料の7日間体験クラスで、さらに多くのタングルを学びましょう。
-                    </p>
-                    <a href="https://hxzk7sue.autosns.app/addfriend/s/KaGnyj5v0d/@255jknci" 
-                       target="_blank" 
-                       rel="noopener noreferrer" 
-                       class="btn btn--primary btn--large">
-                        LINE友だち登録をして講座を受け取る
-                    </a>
-                </div>
-            </section>
+                </aside>
+            </div>
         </div>
     `;
 }
