@@ -241,17 +241,6 @@ section {
     color: var(--color-text);
 }
 
-.header__logo-image {
-    height: 50px;
-    width: auto;
-    display: block;
-    transition: transform var(--transition-fast);
-}
-
-.header__logo:hover .header__logo-image {
-    transform: scale(1.05);
-}
-
 .header__nav-list {
     display: flex;
     align-items: center;
