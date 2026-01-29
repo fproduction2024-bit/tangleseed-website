@@ -99,7 +99,7 @@
   {
     "id": "4",
     "name": "Jonqal",
-    "nameJa": "ジョンカル",
+    "nameJa": "ジョンクォル",
     "slug": "jonqal",
     "description": "An official Zentangle pattern and one of the foundational eight tangles. Jonqal features flower-like organic shapes with graceful curved petals.",
     "descriptionJa": "Jonqal（ジョンカル）は、Maria Thomasによって考案された、強烈な立体感と視覚的な驚きをもたらす公式ゼンタングルパターンです。このパターンの最大の特徴は、単純な曲線の積み重ねが、見る者の目に「ねじれ」や「折り重なった面」のようなダイナミックな3D錯覚（オプティカル・イリュージョン）を生み出す点にあります。\n\n描き方はグリッドをベースにしていますが、それぞれの区画に力強く、かつ計算された曲線を入れていくことで、まるでタイルがうねっているかのような奥行きが現れます。この魔法のような立体感を完成させる鍵は、慎重なシェーディングと細かなオーラ（影の線）にあります。影を落とすべき場所を見極めて鉛筆を入れると、平面だったタイルが突如として立体的な彫刻のように浮かび上がり、描き手自身も驚くような仕上がりになります。その非常に高い没入感と、完成時の達成感から、ゼンタングルの古典的な傑作の一つとして世界中のタングラーに愛され続けています。",
@@ -214,10 +214,10 @@
   },
   {
     "id": "8",
-    "name": "Aura",
-    "nameJa": "オーラ",
-    "slug": "aura",
-    "description": "A fundamental Zentangle technique rather than a single pattern. Aura creates echo lines that trace around shapes like ripples on water or a glowing halo, adding dimension and enhancing any tangle. Essential for building complexity and depth.",
+    "name": "Aura-Knot",
+    "nameJa": "オーラノット",
+    "slug": "aura-knot",
+    "description": "An official Zentangle pattern that creates intricate interlocking knot-like structures through the use of Aura techniques. While based on the fundamental Aura technique, it creates a distinct woven and dimensional effect.",
     "descriptionJa": "ゼンタングルにおける最も基本的かつ重要な技法（タングル・エンハンサー）の一つです。すでに描いたラインや形の周囲に、一定の間隔を保ちながらその形に沿って線を引くことを「オーラを描く」と呼びます。\n\nオーラを加えることで、その形が強調され、リズムや広がりが生まれます。単純な繰り返しですが、線の間隔を変えたり、何度も重ねて描くことで、驚くほど複雑でダイナミックな視覚効果を得ることができます。また、線をどこかに繋ぎ止めた状態で描く「テザー・オーラ（Tethered Aura）」などのバリエーションもあります。マリア・トーマスは、オーラには無限の創造的可能性が秘められていると述べています。タングルの境界線を際立たせたり、画面全体のバランスを整えたりする際に非常に効果的です。焦らず、一呼吸おきながら丁寧に線を引くことで、作品に静寂と調和をもたらします。",
     "difficulty": "beginner",
     "category": [
@@ -319,7 +319,7 @@
   {
     "id": "11",
     "name": "Huggins",
-    "nameJa": "ハギンス",
+    "nameJa": "ハギンズ",
     "slug": "huggins",
     "description": "Official Zentangle pattern by Martha Huggins and the Tangle of the Year 2025. A beautiful pattern that demonstrates elegance and versatility.",
     "descriptionJa": "Huggins（ハギンス）は、ゼンタングルの共同創設者 Rick Roberts と Maria Thomas によって発表された、美しい「織り」の質感を表現する代表的な公式パターンです。バスケットの編み目や鎖のつながりを連想させるこの造形は、等間隔に並んだオーブ（丸）を「目」の形をした曲線で交互に繋いでいくことで構築されます。そのエレガントで知的な仕上がりは、タイル全体に工芸品のような気品と奥行きを与えてくれます。\n\nこのパターンの醍醐味は、ゼンタングルの重要な技法である「ホリバー原則（後ろに描く技法）」を応用して、線が互いに前後に編み込まれているように見せるプロセスにあります。どの線が手前で、どの線が奥にあるかを一筆ずつ意識しながら、ゆっくりと呼吸を整えて繋いでみてください。その規則正しい反復作業は、散らかりがちな思考を整理し、静かな没入感へと誘ってくれるでしょう。オーブの位置をあえて不規則にする「Crazy Huggins」や、編み目を結びつけたような「Tied Huggins」など、アレンジによって表情が劇的に変わるのも大きな魅力。重なり合う部分に丁寧に影を忍ばせれば、紙の上には実際に触れられそうなほどの瑞々しい立体感が立ち上がります。",
@@ -341,11 +341,11 @@
   },
   {
     "id": "12",
-    "name": "Ahh",
-    "nameJa": "アー",
-    "slug": "ahh",
-    "description": "An official Zentangle pattern, often one of the first taught to beginners. Ahh resembles a starburst or snowflake and is useful for adding texture.",
-    "descriptionJa": "Ahh（アー）は、ゼンタングルの創設者であるRickとMariaによって考案された、最もシンプルで、かつ最も喜びに満ちた公式パターンの一つです。その構造は非常に明快で、中心の一点から放射状に数本の線を引き、その先端に小さなオーブ（丸）を添えるだけです。その姿は、夜空に弾ける「打ち上げ花火」や、野原に咲く「タンポポの綿毛」のように、軽やかでポジティブなエネルギーを感じさせます。\n\n名前の由来も非常にユニークで、美しい花火を見上げた時に人々が思わず漏らす「あぁ（Ahh）！」という感嘆の声から名付けられました。技法を選ばず、タイルの空いたスペースを埋める「フィラー」として、あるいは作品に動きや祝祭感を加えたい時のアクセントとして非常に重宝します。初心者でも、ペンを置いた瞬間からその美しさを実感でき、ゼンタングルが提唱する「誰にでも描ける」という哲学を最も純粋に体現しているパターンと言えるでしょう。",
+    "name": "Therefore and Ahh",
+    "nameJa": "ゼアフォー＆アー",
+    "slug": "therefore-and-ahh",
+    "description": "A classic Zentangle combination featuring 'Therefore' (triangular dot patterns) and 'Ahh' (light, radiating lines), creating an elegant and airy visual effect.",
+    "descriptionJa": "Therefore and Ahh（ゼアフォー＆アー）は、ゼンタングルの創設者であるRickとMariaによって考案された、最もシンプルで、かつ最も喜びに満ちた公式パターンの一つです。その構造は非常に明快で、中心の一点から放射状に数本の線を引き、その先端に小さなオーブ（丸）を添えるだけです。その姿は、夜空に弾ける「打ち上げ花火」や、野原に咲く「タンポポの綿毛」のように、軽やかでポジティブなエネルギーを感じさせます。\n\n名前の由来も非常にユニークで、美しい花火を見上げた時に人々が思わず漏らす「あぁ（Ahh）！」という感嘆の声から名付けられました。技法を選ばず、タイルの空いたスペースを埋める「フィラー」として、あるいは作品に動きや祝祭感を加えたい時のアクセントとして非常に重備します。初心者でも、ペンを置いた瞬間からその美しさを実感でき、ゼンタングルが提唱する「誰にでも描ける」という哲学を最も純粋に体現しているパターンと言えるでしょう。",
     "difficulty": "beginner",
     "category": [
       "official",
@@ -640,7 +640,7 @@
   {
     "id": "24",
     "name": "Jetties",
-    "nameJa": "ジェッティーズ",
+    "nameJa": "ジェティーズ",
     "slug": "jetties",
     "description": "An official Zentangle pattern suitable for beginners, featuring simple linear structures.",
     "descriptionJa": "Jetties（ジェティーズ）は、ゼンタングル本部のマリア・トーマスによって考案された、円形（オーブ）をリズミカルに積み重ねていく、力強くも愛らしい公式パターンです。大小さまざまな石を積み上げた堤防や、波打ち際の小石を思わせるその姿は、画面に心地よい重量感とグラフィカルなアクセントをもたらしてくれます。\n\n描く際の楽しみは、オーブの中に三日月状の影（ドラマ）を入れ、一部を白く残すことで、まるでタイルの中に夜空の月や、光り輝く真珠が閉じ込められたような幻想的な立体感を生み出すことにあります。一つ一つのオーブの中に、静かな光が宿っていく様子を楽しみながら、ペン先のインクが紙に染み込んでいく感触をじっくりと味わってください。完成した Jetties は、あなたの作品に宝石のような豊かな輝きと、揺るぎない安定感を与えてくれるはず。",
@@ -867,7 +867,7 @@
   {
     "id": "33",
     "name": "W2",
-    "nameJa": "ダブリュー2",
+    "nameJa": "ダブリューツー",
     "slug": "w2",
     "description": "W2, which stands for \"Warp and Weft\" (the two sets of yarns in weaving), is an official Zentangle pattern created by co-founders Rick Roberts and Maria Thomas. This tangle resembles weaving and is great fun to draw with potential for interesting variations through shading and line work. One of several weaving-inspired tangles, W2 uses straight lines connecting squares to create the woven effect. It has a variant called Huggins that uses curved lines connecting dots instead of squares.",
     "descriptionJa": "W2（ダブリューツー）は、織物の経糸（Warp）と緯糸（Weft）の頭文字を取って名付けられた、幾何学的で構築的な美しさを持つ公式パターンです。ゼンタングルの共同創設者 Rick と Maria によって考案され、その名の通り、まるで熟練の職人が織り上げた布のように、線が互いに前後に編み込まれているような見事な視覚効果を生み出します。シンプルな要素の積み重ねでありながら、完成した時の複雑で知的な印象は、描く人にも見る人にも大きな満足感を与えてくれます。\n\n描き方は、まず正方形を格子状に並べ、それらを特定の「オーラ」のテクニックを使って繋いでいくステップを踏みます。この魔法のようなプロセスにより、紙という平面の上に実際に糸が重なり合っているような奥行きが現れます。W2はシェーディングが非常に効果的に機能するパターンの1つで、重なり合う部分の「下」にあたる場所に丁寧な影を落とすことで、驚くほどリアルな三次元の質感が立ち上がります。ゼンタングルにおける「編み込み」の楽しさと、構造を構築していく喜びを凝縮したような、多才で頼もしいタングルです。",
@@ -893,7 +893,7 @@
   {
     "id": "34",
     "name": "Aquafleur",
-    "nameJa": "アクアフルール",
+    "nameJa": "アクアフルー",
     "slug": "aquafleur",
     "description": "An official Zentangle pattern inspired by water and flowers, featuring graceful flowing organic forms that evoke aquatic beauty.",
     "descriptionJa": "Aquafleur（アクアフルール）は、水（Aqua）と花（Fleur）が融合したような、優雅で幻想的な公式パターンです。波打つリボンのような流線型のパーツを幾重にも重ねていくことで、まるで深海に咲く謎めいた花や、水面に優雅に広がるドレスの裾のような、息を呑むような美しさが立ち上がります。ゼンタングルの数あるパターンの中でも、非常に高い立体感と装飾性を持ち、タイル全体にドラマチックな品格を与えてくれます。\n\nこのパターンの核心となるのは、最初に描く「ティアドロップ（しずく型）」の配置と、その周りに丁寧に、ゆっくりと呼吸を整えながら重ねていく「オーラ」の曲線です。しずく型の先端から流れるように線を引き、それらを等間隔に繰り返すことで、布のひだ（プリーツ）のような端正な質感が現れます。シェーディングによって「谷」の部分を深く沈め、「山」の部分を明るく強調することで、紙の上には圧倒的な存在感を持つ3Dの造形が誕生します。描くたびに新しい表情を見せてくれる、熟練者にも愛される芸術的なタングルです。",
@@ -1419,7 +1419,7 @@
   {
     "id": "51",
     "name": "Chainging",
-    "nameJa": "チェンジング",
+    "nameJa": "チェインジング",
     "slug": "chainging",
     "description": "An official Zentangle pattern featuring chain-like geometric elements that create interconnected flowing patterns.",
     "descriptionJa": "Chainging（チェンジング）は、Maria Thomasによって考案された、鎖（チェーン）のような幾何学的な輪が連なり、画面を自在に泳ぐように描くパターンです。ゼンタングルの基本技法である「オーラ」を効果的に使い、最初の小さなリンク（輪）から次々と鎖を繋いでいく過程は、まるで本物のジュエリーを編んでいるような楽しさがあります。\n\nこのパターンの特徴は、チェーンの描くラインによって画面に動的な流れを生み出せる点です。まっすぐ描けば規律ある印象に、自在に蛇行させれば生き生きとした生命感あふれる印象になります。鎖の中にドットを描き込んだり、シェーディングで金属的な光沢を表現したりすることで、より豪華でデコラティブな仕上がりになります。",
@@ -2015,7 +2015,7 @@
   {
     "id": "67",
     "name": "Rixty",
-    "nameJa": "リクスティ",
+    "nameJa": "リキシティー",
     "slug": "rixty",
     "description": "An official Zentangle pattern with rhythmic leaf-like shapes that create flowing organic designs.",
     "descriptionJa": "Rixty（リクスティ）は、Rick Robertsによって考案された、アルファベットの「L」や「S」を滑らかに書き連ねるような動きから生まれる公式パターンです。その名の通り「Rick」のエッセンスが詰まっており、一定のリズムで線を反復させることで、タイルの中に優美な流れと「オーラ」の美しさが際立ちます。\n\nこのパターンの醍醐味は、描き手の呼吸とペンの動きが完全に一致するような、深い瞑想感にあります。最初は一本のシンプルな曲線から始まり、それを包み込むように丁寧にオーラ（並行線）を重ねていくことで、まるで波紋が広がっていくような、あるいは美しいリボンが風に舞っているような造形が現れます。シェーディングで明暗のコントラストを強調すれば、紙の上には次元を超えた立体感が立ち上がります。他の複雑なパターンを繋ぐフィラー（埋め尽くし）としても非常に優秀で、作品全体に洗練された統一感をもたらしてくれます。",
@@ -2100,7 +2100,7 @@
   {
     "id": "70",
     "name": "Frondous",
-    "nameJa": "フロンダス",
+    "nameJa": "イニックス　フロンドス",
     "slug": "frondous",
     "description": "An official Zentangle pattern inspired by fern fronds, featuring leaf-like organic botanical forms.",
     "descriptionJa": "Frondous（フロンダス）は、Maria Thomasによって考案された、「Frond（シダの葉）」にインスパイアされた優雅な植物的パターンです。しなやかに波打つ茎のラインから雫のような柔らかな葉が次々と芽吹いていく様子は、森の奥深くで静かに呼吸する植物のような安らぎを画面にもたらします。\n\n描き方のポイントは、茎の曲線を伸びやかに描き、葉をオーラ技法で重ねていくことです。葉の形を少しずつ変えたり密集させたりすることで、作品に豊かな表情と奥行きが生まれます。シェーディングで葉の付け根を濃く仕上げると、まるで朝露に濡れたシダがタイルの中に息づいているような、幻想的な仕上がりになります。",
@@ -2439,10 +2439,10 @@
   {
     "id": "79",
     "name": "Icanthis",
-    "nameJa": "アイキャンシス",
+    "nameJa": "アイキャンディス",
     "slug": "icanthis",
     "description": "An official Zentangle pattern with complex organic forms that create intricate flowing patterns.",
-    "descriptionJa": "Icanthis（アイキャンシス）は、Maria Thomasによって考案された、建築装飾などで有名な「アカンサスの葉」をモチーフにした非常に華やかな有機的パターンです。優雅にカールする葉の先端と繊細なオーラが織りなすデザインは、貴族の宮殿の壁飾りや、美しい刺繍を連想させます。\n\n一見複雑そうに見えますが、ベースとなる葉の形からオーラを丁寧に広げていくことで、誰でも気品あふれるアートを創り出せます。描き進めるほどに画面がドレスアップされ、洗練された仕上がりになっていきます。シェーディングで葉のひだや重なりを強調すると、シルクのように滑らかで艶やかな質感が際立ち、作品に特別な高級感を与えてくれます。",
+    "descriptionJa": "Icanthis（アイキャンディス）は、Maria Thomasによって考案された、建築装飾などで有名な「アカンサスの葉」をモチーフにした非常に華やかな有機的パターンです。優雅にカールする葉の先端と繊細なオーラが織りなすデザインは、貴族の宮殿の壁飾りや、美しい刺繍を連想させます。\n\n一見複雑そうに見えますが、ベースとなる葉の形からオーラを丁寧に広げていくことで、誰でも気品あふれるアートを創り出せます。描き進めるほどに画面がドレスアップされ、洗練された仕上がりになっていきます。シェーディングで葉のひだや重なりを強調すると、シルクのように滑らかで艶やかな質感が際立ち、作品に特別な高級感を与えてくれます。",
     "difficulty": "intermediate",
     "category": [
       "official",
@@ -2743,7 +2743,7 @@
   {
     "id": "88",
     "name": "Nipa",
-    "nameJa": "ニーパ",
+    "nameJa": "ニパ",
     "slug": "nipa",
     "description": "An official Zentangle pattern inspired by palm fronds, featuring leaf-like botanical organic forms.",
     "descriptionJa": "Nipa（ニーパ）は、Maria Thomasによって考案された、「ニーパヤシ（Nipa Palm）」の葉にインスパイアされた生命力あふれるボタニカル・パターンです。しなやかな茎から細長くシャープな葉が次々と芽吹いていく構成は、ジャングルに生い茂る緑の美しさを画面にもたらします。\n\n一見「Pokeleaf（ポケリーフ）」に似ていますが、より鋭角的で洗練された葉の形が特徴です。葉を重なり合うように「ホリバー技法」で描くことで、深い茂みの中に迷い込んだような心地よい奥行きが生まれます。シェーディングで葉の付け根を濃く仕上げると、より生き生きとした立体感が際立ちます。",
@@ -2783,7 +2783,7 @@
   {
     "id": "89",
     "name": "N'Zeppel",
-    "nameJa": "エヌゼッペル",
+    "nameJa": "エンゼッペル",
     "slug": "nzeppel",
     "description": "An official Zentangle pattern with geometric forms inspired by airships and flight.",
     "descriptionJa": "N'Zeppel（エヌゼッペル）は、Maria Thomasによって考案された、20世紀初頭の巨大飛行船「ツェッペリン号」の外装にインスパイアされた構築的で魅力的な幾何学パターンです。グリッド（格子）の「角」を丸めるという単純な動作が、それぞれの枠をふっくらと膨らんだクッションのように見せる、魔法のような三次元的効果を生み出します。\n\n丸めた角の隙間を墨で塗りつぶしたり、膨らみの中心に柔らかなシェーディングを加えたりすることで、布張りや革張りの高級家具のような、リッチで艶やかな質感がタイルの上に現れます。一筆ごとに角を丸めていく作業は、まるで硬いものを柔らかいものへと変えていくような、心の緊張を解きほぐすプロセスでもあります。幾何学的なカッチリとした印象と、有機的な柔らかさが共存するこのタングルは、作品にプロフェッショナルな風格と、思わず触れたくなるような質感を添えてくれるでしょう。タイルの中に新しい構造を築き上げる喜びを、ぜひこのN'Zeppelで体験してください。",
@@ -2806,7 +2806,7 @@
   {
     "id": "90",
     "name": "Onamato",
-    "nameJa": "オナマト",
+    "nameJa": "オーナマト",
     "slug": "onamato",
     "description": "An official Zentangle pattern with onomatopoeia-inspired organic forms that suggest sound and movement.",
     "descriptionJa": "Onamato（オナマト）は、Maria Thomasによって考案された、「オノマトペ（擬音語）」から名付けられた、音の響きを視覚化したような楽しい有機的パターンです。小さな円（オーブ）がクラスター状に集まり、そこから尾を引くように流れる線が伸びる造形は、泡がはじける音や空間を伝わるリズムを連想させます。\n\nあまり理屈で考えず、ペンが奏でる「音」をそのまま形にするような自由な気持ちで描くのがコツです。オーブの中にハイライトを入れたり、流れる線に強弱をつけたりすることで、画面に軽やかな躍動感とポジティブなエネルギーが生まれます。作品の一部に遊び心と動きを添えたい時に最適なタングルです。",
@@ -2963,7 +2963,7 @@
   {
     "id": "94",
     "name": "Pokeleaf",
-    "nameJa": "ポークリーフ",
+    "nameJa": "ポークルート・ポークリーフ",
     "slug": "pokeleaf",
     "description": "An official Zentangle pattern featuring poked leaf-like organic forms that are simple and natural.",
     "descriptionJa": "Pokeleaf（ポークリーフ）は、Maria Thomasによって考案された、ゼンタングルにおける「有機的」パターンの象徴とも言える、愛らしく親しみやすいタングルです。一本の茎から丸みを帯びた葉がひょっこりと顔を出している様子は、作品に自然界の優しさと、たくましい生命の息吹をもたらしてくれます。\n\n「ホリバー技法（重なり）」を使い、新しい葉を既存の葉の「後ろ」側へと描き重ねていくことで、タイルの中に深い茂みが生まれます。これは、私たちの周囲にある生命が互いに支え合い、共生している様子を紙の上に映し出しているようでもあります。初心者でも描きやすく、他のどんなタングルとも調和するため、ゼンタングルの基本を学ぶのにも、作品に温かな息づかいを加えるのにも最適です。葉の重なりにそっと影を落とし、緑豊かな森の奥深くを想像しながら、ゆったりとしたペン運びを楽しんでください。描くたびにタイルの中に命が吹き込まれていく感覚は、何物にも代えがたい安らぎを与えてくれます。",
@@ -2987,7 +2987,7 @@
   {
     "id": "95",
     "name": "Quandary",
-    "nameJa": "クアンダリー",
+    "nameJa": "クォンダリー",
     "slug": "quandary",
     "description": "An official Zentangle pattern with complex forms that express dilemma and create intricate patterns.",
     "descriptionJa": "Quandary（クアンダリー）は、Maria Thomasによって考案された、「板挟み、困惑」という意味を持つ、曲線が交差することで生まれる六角形の星のような美しさが特徴のパターンです。一見すると非常に複雑で、どう描いているのか戸惑うような不思議な視覚効果を生み出します。\n\n描き進めるうちに、線の交点が自動的に緻密な幾何学模様を編み出していく過程は、パズルを解いているような知的な興奮をもたらします。シェーディングで中心に向けてグラデーションをつけたり交差点を強調したりすることで、平面のタイルが万華鏡のようにダイナミックに輝き始め、見る人を魅了する洗練された仕上がりになります。",
@@ -3146,7 +3146,7 @@
   {
     "id": "99",
     "name": "Ravel",
-    "nameJa": "ラヴェル",
+    "nameJa": "ラベル",
     "slug": "ravel",
     "description": "An official Zentangle pattern with entangled complex forms that create intricate woven patterns.",
     "descriptionJa": "Ravel（ラヴェル）は、Maria Thomasによって考案された、「もつれる、解ける」という意味を持つ、三角形のグリッドをベースにした幾何学パターンです。糸が複雑に絡み合いながらも、全体として秩序ある編み目を構成していく様子が、画面に知的な奥行きと洗練された質感を演出します。\n\n一つ一つの線を丁寧に繋いでいくパズルのようなプロセスにより、驚くほど緻密で重厚なデザインが現れます。シェーディングで編み目の重なり（上下関係）を強調したり、隙間を塗りつぶしたりすることで、平面のタイルが高級な籠細工のようにダイナミックに変容する楽しさを味わえます。",
@@ -3806,11 +3806,11 @@
   },
   {
     "id": "116",
-    "name": "Y-Full",
-    "nameJa": "ワイ・フル",
-    "slug": "y-full",
-    "description": "An official Zentangle pattern related to W2. Features Y-shaped elements that create full, flowing patterns.",
-    "descriptionJa": "Y-Full（ワイ・フル）は、Maria Thomasによって考案された、人気パターン「W2」の兄弟のような存在であり、タイルの名脇役としても主役としても活躍する、非常にフレキシブルな幾何学パターンです。「Y」の字を規則的に並べ、その周囲をオーラで埋めていく構成は、画面に心地よい秩序と、編み込まれた布地のような豊かな質感を演出します。\n\nシンプルながらも、繰り返すことで予期せぬ大きな幾何学模様が浮かび上がってくるのがこのタングルの魔法です。シェーディングで「Y」の交点に影を入れ、オーラの部分を白く残すことで、タイルの中にリズミカルな起伏と光り輝く織り模様が描き出されます。",
+    "name": "Y-Four",
+    "nameJa": "ワイフォー",
+    "slug": "y-four",
+    "description": "An official Zentangle pattern featuring Y-shaped geometric structures that interlock to create a sophisticated woven-like texture.",
+    "descriptionJa": "Y-Four（ワイフォー）は、Maria Thomasによって考案された、人気パターン「W2」の兄弟のような存在であり、タイルの名脇役としても主役としても活躍する、非常にフレキシブルな幾何学パターンです。「Y」の字を規則的に並べ、その周囲をオーラで埋めていく構成は、画面に心地よい秩序と、編み込まれた布地のような豊かな質感を演出します。\n\nシンプルながらも、繰り返すことで予期せぬ大きな幾何学模様が浮かび上がってくるのがこのタングルの魔法です。シェーディングで「Y」の交点に影を入れ、オーラの部分を白く残すことで、タイルの中にリズミカルな起伏と光り輝く織り模様が描き出されます。",
     "difficulty": "intermediate",
     "category": [
       "official",
@@ -4491,7 +4491,7 @@
   {
     "id": "133",
     "name": "Rixty",
-    "nameJa": "リックスティー",
+    "nameJa": "リキシティー",
     "slug": "rixty",
     "description": "An official Zentangle pattern with dynamic angular elements that create energetic visual movement.",
     "descriptionJa": "Rixty（リックスティー）は、Rick Robertsによって考案された、タイルを貫くような力強い「V」字の連続と、そこから生まれるシャープなエッジが魅力のダイナミックな幾何学パターンです。稲妻の閃光やエネルギッシュな鼓動を想起させ、画面に圧倒的なスピード感と方向性をもたらします。\n\n迷わず線を引く決断力が最も反映される、爽快感のあるタングルです。シェーディングでV字の谷の部分に深い影を入れ、鋭い頂点に光を集めるように仕上げることで、平面のタイルが激しく脈動し、今にも動き出しそうなエネルギッシュな輝きを完成させることができます。",
@@ -4573,7 +4573,7 @@
   {
     "id": "135",
     "name": "Inix",
-    "nameJa": "イニックス",
+    "nameJa": "イニックス　フロンドス",
     "slug": "inix",
     "description": "An official Zentangle pattern with interconnected geometric elements that create unified patterns.",
     "descriptionJa": "Inix（イニックス）は、Maria Thomasによって考案された、不思議なパイプや鎖が複雑に絡み合いながら、最終的には一つの完璧な秩序へと収束していく、驚くほど構築的な幾何学パターンです。「相互接続」をテーマにしたその造形は、画面に知的なパズルを解くような興奮と、圧倒的な統一感をもたらします。\n\n描き進めるうちに、タイルの中にミクロな「インフラ」や「ネットワーク」が構築されていくような、独特の充実感を味わえます。シェーディングで繋ぎ目の「上下」をはっきりと描き分け、メタリックなグラデーションをつけることで、タイルの中に近未来的な、あるいは古代の超科学を感じさせる不思議な立体感が現れます。",
@@ -4614,7 +4614,7 @@
   {
     "id": "136",
     "name": "Crool",
-    "nameJa": "クロール",
+    "nameJa": "クール",
     "slug": "crool",
     "description": "An official Zentangle pattern with cool, flowing curved elements that create smooth organic patterns.",
     "descriptionJa": "Crool（クロール）は、Rick Robertsによって考案された、一筆書きのような滑らかで流れるような曲線がタイルを自在に泳ぎ回る、非常にリラックス効果の高い有機的パターンです。「クール」な雰囲気の中に、どこか無邪気な躍動感を秘めたその造形は、画面にしっとりとした潤いと、絶え間なく続く生命の循環をもたらします。\n\n描く人の呼吸に合わせて線を伸ばしていくことで、パターンはタイルいっぱいに有機的に増殖していきます。シェーディングで曲線が重なる部分に柔らかな影を落とし、ぷっくりとした「丸み」を意識して仕上げることで、タイルの中に水滴や真珠が連なっているような、清涼感のある美しい作品が完成します。",
@@ -4860,7 +4860,7 @@
   {
     "id": "142",
     "name": "Calant",
-    "nameJa": "カラント",
+    "nameJa": "コーラント",
     "slug": "calant",
     "description": "An official Zentangle pattern with elegant flowing elements that create graceful visual movement.",
     "descriptionJa": "Calant（カラント）は、Rick Robertsによって考案された、タイルを自在に泳ぎ回る優雅な曲線が魅力の、非常にマインドフルな有機的パターンです。「穏やかな潮流」を意味するその名の通り、滑らかな線が重なり、層を成していく様子は、画面に心地よい風や水の流れ、そして深い安らぎをもたらします。\n\n描き方のコツは、一度筆を置いたら、その流れがどこへ向かいたいのかを「ペンに任せる」ことです。シェーディングで曲線が交差する部分をソフトに強調し、線の間にたっぷりと余白（オーラ）を残すことで、タイルの中に清らかな気が流れ、見る人の心を穏やかに癒すような、透明感あふれる作品が完成します。",
@@ -5048,7 +5048,7 @@
   {
     "id": "147",
     "name": "Zephyr",
-    "nameJa": "ゼファー",
+    "nameJa": "ゼアフォー＆アー",
     "slug": "zephyr",
     "description": "An official Zentangle pattern inspired by gentle breezes. Features light flowing organic elements.",
     "descriptionJa": "Zephyr（ゼファー）は、Rick Robertsによって考案された、そよそよと吹く「西風」のように、タイルを軽やかに横切る非常に優美でしなやかな有機的パターンです。風に乗って運ばれてきた草花の種や、揺らめく空気の流れを想起させ、画面に心地よい「気」の巡りと爽やかな解放感をもたらします。\n\nあえて線を弱く、あるいは途切れ途切れに描くことで、目に見えない風の質感が現れるのがこのタングルの魅力です。シェーディングで曲線の交わりに淡い影を添え、全体の流れる方向を一律に揃えることで、タイルの中に清々しいそよ風が吹き抜け、見る人の心に一筋の涼風を届けるような作品が完成します。",
@@ -5088,11 +5088,11 @@
   },
   {
     "id": "148",
-    "name": "Drawber",
-    "nameJa": "ドローバー",
-    "slug": "drawber",
-    "description": "An official Zentangle pattern with bold drawing elements that create striking visual statements.",
-    "descriptionJa": "Drawber（ドローバー）は、Rick Robertsによって考案された、モダンアートの線画を思わせるような、非常に力強くミニマムな魅力を放つ幾何学パターンです。構築的な直線の帯がタイルを大胆に横切り、重なるその造形は、画面に揺るぎない秩序と、手描きならではのエネルギーに満ちた確信をもたらします。\n\n「迷いなく線を引く」というゼンタングルの基本が、そのままデザインの強さへと繋がるタングルです。シェーディングで帯が重なる上下関係をはっきりと描き出し、エッジにシャープなグラデーションをつけることで、タイルが現代彫刻のような重厚で洗練された佇まいを持つ素晴らしい作品に仕上がりになります。",
+    "name": "Drawings",
+    "nameJa": "ドローイングス",
+    "slug": "drawings",
+    "description": "An official Zentangle pattern with organic flowing forms that suggest elegant scrolls or architectural elements.",
+    "descriptionJa": "Drawings（ドローイングス）は、Rick Robertsによって考案された、モダンアートの線画を思わせるような、非常に力強くミニマムな魅力を放つ幾何学パターンです。構築的な直線の帯がタイルを大胆に横切り、重なるその造形は、画面に揺るぎない秩序と、手描きならではのエネルギーに満ちた確信をもたらします。\n\n「迷いなく線を引く」というゼンタングルの基本が、そのままデザインの強さへと繋がるタングルです。シェーディングで帯が重なる上下関係をはっきりと描き出し、エッジにシャープなグラデーションをつけることで、タイルが現代彫刻のような重厚で洗練された佇まいを持つ素晴らしい作品に仕上がりになります。",
     "difficulty": "intermediate",
     "category": [
       "official",
@@ -5128,11 +5128,11 @@
   },
   {
     "id": "149",
-    "name": "Coaster",
-    "nameJa": "コースター",
-    "slug": "coaster",
-    "description": "An official Zentangle pattern with circular rolling elements that create coasting movement patterns.",
-    "descriptionJa": "Coaster（コースター）は、Maria Thomasによって考案された、円卓の上の「コースター」や車輪がタイルを軽快に転がっていくような、非常にリズム感のある幾何学パターンです。同心円状のパーツが次々と連なり、滑走（Coasting）していく様子は、画面に心地よい速度感と、絶え間なく続く楽しさをもたらします。\n\n描き方の楽しさは、円の中にどのような装飾を描き込むかという自由なアレンジにあります。シェーディングで各円の「下の淵」を濃く仕上げ、中心を明るく残すことで、タイルの中にたくさんの丸い「滑走体」が整然と、あるいは賑やかに並走する、躍動感あふれる作品が完成します。",
+    "name": "Arcas",
+    "nameJa": "アルカス",
+    "slug": "arcas",
+    "description": "An official Zentangle pattern consisting of arched lines and overlapping structures that create a sense of depth and architectural complexity.",
+    "descriptionJa": "Arcas（アルカス）は、Maria Thomasによって考案された、円卓の上の「コースター」や車輪がタイルを軽快に転がっていくような、非常にリズム感のある幾何学パターンです。同心円状のパーツが次々と連なり、滑走（Coasting）していく様子は、画面に心地よい速度感と、絶え間なく続く楽しさをもたらします。\n\n描き方の楽しさは、円の中にどのような装飾を描き込むかという自由なアレンジにあります。シェーディングで各円の「下の淵」を濃く仕上げ、中心を明るく残すことで、タイルの中にたくさんの丸い「滑走体」が整然と、あるいは賑やかに並走する、躍動感あふれる作品が完成します。",
     "difficulty": "beginner",
     "category": [
       "official",
@@ -5211,7 +5211,7 @@
   {
     "id": "151",
     "name": "Ahh-solo",
-    "nameJa": "アーソロ",
+    "nameJa": "ゼアフォー＆アー",
     "slug": "ahh-solo",
     "description": "An official Zentangle pattern that is a standalone variation of Ahh. Features relaxing flowing organic elements.",
     "descriptionJa": "Ahh-solo（アーソロ）は、Maria Thomasによって考案された、基本パターン「Ahh」をより深化させ、単独（Solo）での主役級の存在感を持たせた、非常にリラックス効果の高い有機的パターンです。中心から放たれる微細なエネルギーの粒子や、水面に広がる波紋のような造形は、画面に穏やかな静寂と、魂を浄化するような美しいリズムをもたらします。\n\n「少ないことは豊かなこと（Less is More）」を象徴するように、無数の小さな点や曲線がタイルいっぱいに広がっていくプロセスは、深い瞑想状態へと導いてくれます。シェーディングで全体の「中心点」に向かって淡いグラデーションをつけ、要素の密度に変化を持たせることで、タイルの中に清らかな光と風が生まれる、非常にスピリチュアルな作品に仕上がります。",
@@ -5252,7 +5252,7 @@
   {
     "id": "152",
     "name": "Verdigogh",
-    "nameJa": "ヴェルディゴー",
+    "nameJa": "バーディゴー",
     "slug": "verdigogh",
     "description": "An official Zentangle pattern inspired by pine needles, featuring delicate organic branching elements.",
     "descriptionJa": "Verdigogh（ヴェルディゴー）は、ゼンタングルの共同創設者 Maria Thomas によって考案された、冬の森に静かに佇む松の葉や、常緑樹の瑞々しい生命力にインスパイアされた公式パターンです。その名の通り、生命の「緑（Verdi）」と、力強い筆致で知られる画家「ゴッホ（Gogh）」の影響を思わせる、躍動感あふれる有機的なラインが特徴です。\n\n一見複雑そうに見えますが、実は非常にシンプルな一筆の積み重ねで構築されます。中心となる一本の軸から、V字を描くようにリズミカルに葉を生やしていくプロセスは、森の中にいるような深い安らぎと没入感を与えてくれるでしょう。他のどんな有機的なパターンとも相性が良く、作品全体のバランスを整える「背景」としても、主役を彩る「装飾」としても非常に優秀です。描くたびにタイルの中に静寂な森が広がっていくような、ゼンタングルの癒しのエッセンスが詰まったタングルです。",
@@ -5298,7 +5298,7 @@
   {
     "id": "154",
     "name": "Keenees",
-    "nameJa": "キーニーズ",
+    "nameJa": "ストライピング",
     "slug": "keenees",
     "description": "An official Zentangle pattern with keen sharp angular elements that create precise geometric patterns.",
     "descriptionJa": "Keenees（キーニーズ）は、Rick Robertsによって考案された、「研ぎ澄まされた視線（Keen Eyes）」を想起させる、非常にシャープで構築的な幾何学パターンです。角度の揃った鋭利な幾何学パーツがタイルを分割し、秩序を形成していく様子は、画面に知的な冷静さと、揺るぎない精神の安定をもたらします。\n\n一見複雑なデザインは、描き進めるうちに予期せぬ大きな「模様」が浮かび上がってくるゼンタングルの真髄を味わえます。シェーディングで尖った角を鋭く強調し、対照的な塗りつぶし（ドラマ）を加えることで、タイルが現代的でシャープな美しさを放ち始め、見る人の背筋をスッと伸ばすような、知的で潔い作品が完成します。",
@@ -5339,7 +5339,7 @@
   {
     "id": "155",
     "name": "Maryhill",
-    "nameJa": "メリーヒル",
+    "nameJa": "ドゥループ",
     "slug": "maryhill",
     "description": "An official Zentangle pattern with hill-like rolling organic forms that create gentle undulating patterns.",
     "descriptionJa": "Maryhill（メリーヒル）は、Maria Thomasによって考案された、どこまでも続く緩やかな「丘（Hill）」の稜線と、そこに差し込む柔らかな光をタイルに描いた、非常にのどかで優しい有機的パターンです。波打つ曲線が幾重にも重なり、地平線へと消えていく様子は、画面に大らかな広がりと、深い安らぎをもたらします。\n\n「内側へ向かうゆったりとした波」を繰り返して描くプロセスは、描き手の心を広大な自然の中へと連れ出し、精神的な解放を与えてくれます。シェーディングで丘の「谷」の部分にボカしたグラデーションをつけ、尾根の部分を明るく白く残すことで、タイルの中に光に満ちた美しい「メリー（陽気な）ヒル」が完成し、見る人の心に温かな希望を届けます。",
@@ -5380,7 +5380,7 @@
   {
     "id": "156",
     "name": "Verdigogh",
-    "nameJa": "ヴェルディゴー",
+    "nameJa": "バーディゴー",
     "slug": "verdigogh",
     "description": "An artistic official Zentangle pattern inspired by Van Gogh-like flowing brushstrokes. Features dynamic swirling elements.",
     "descriptionJa": "Verdigogh（ヴェルディゴー）は、Maria Thomasによって考案された、偉大な画家ゴッホ（Van Gogh）の力強く情熱的な「筆致」に、みずみずしい緑（Verdi）の生命力を融合させた、圧倒的に芸術的な有機的パターンです。タイルをエネルギッシュに駆け巡る渦巻きと、細かなハッチングの連なりは、画面に燃え上がるような生命の躍動をもたらします。\n\n一筆一筆を「踊るように」力強く描くことが、このタングルの魂を呼び覚ます鍵です。シェーディングで渦の中心に吸い込まれるような深い影を入れ、周囲の線に荒々しくも美しいタッチを施すことで、タイルがゴッホの名画のように脈動し始め、見る人の情熱と創造性を激しく揺さぶる傑作が完成します。",
