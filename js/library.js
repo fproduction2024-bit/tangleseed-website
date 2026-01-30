@@ -322,7 +322,91 @@ function loadPatternDetail(slug) {
     header.after(detailSection);
 
     // Update page title
-    document.title = `${pattern.nameJa} (${pattern.name}) | タングル図鑑 | タングルシード`;
+    document.title = `${pattern.nameJa} (${pattern.name}) | 描き方・解説 | タングル図鑑 | タングルシード`;
+
+    // Update Meta Tags and Schema for SEO
+    updateSEOMeta(pattern);
+    injectPatternSchema(pattern);
+}
+
+// Update Meta tags for a specific pattern
+function updateSEOMeta(pattern) {
+    const description = pattern.descriptionJa.substring(0, 160).replace(/\n/g, ' ');
+
+    // Update Meta Description
+    let metaDescription = document.querySelector('meta[name="description"]');
+    if (metaDescription) {
+        metaDescription.setAttribute('content', `${pattern.nameJa} (${pattern.name})の描き方と解説。${description}`);
+    }
+
+    // Update OG tags
+    let ogTitle = document.querySelector('meta[property="og:title"]');
+    if (ogTitle) ogTitle.setAttribute('content', `${pattern.nameJa} | ゼンタングル描き方解説 | タングルシード`);
+
+    let ogDescription = document.querySelector('meta[property="og:description"]');
+    if (ogDescription) ogDescription.setAttribute('content', description);
+
+    // Update Canonical
+    let canonical = document.querySelector('link[rel="canonical"]');
+    if (canonical) {
+        canonical.setAttribute('href', `https://tangle-seed.co.jp/library.html?pattern=${pattern.slug}`);
+    }
+}
+
+// Inject JSON-LD Schema for a specific pattern (HowTo / Article)
+function injectPatternSchema(pattern) {
+    // Remove existing dynamic schema if any
+    const oldSchema = document.getElementById('dynamic-pattern-schema');
+    if (oldSchema) oldSchema.remove();
+
+    const schemaData = {
+        "@context": "https://schema.org",
+        "@type": "HowTo",
+        "name": `${pattern.nameJa} (${pattern.name})の描き方`,
+        "description": pattern.descriptionJa.substring(0, 300),
+        "image": `https://img.youtube.com/vi/${pattern.youtubeVideoId}/maxresdefault.jpg`,
+        "totalTime": "PT15M",
+        "estimatedCost": {
+            "@type": "MonetaryAmount",
+            "currency": "JPY",
+            "value": "0"
+        },
+        "supply": [
+            { "@type": "HowToSupply", "name": "ゼンタングル・タイル (または紙)" },
+            { "@type": "HowToSupply", "name": "サクラクレパス ピグマペン" },
+            { "@type": "HowToSupply", "name": "鉛筆・擦筆" }
+        ],
+        "tool": [
+            { "@type": "HowToTool", "name": "ペン" },
+            { "@type": "HowToTool", "name": "鉛筆" }
+        ],
+        "step": pattern.steps && pattern.steps.length > 0 ? pattern.steps.map(s => ({
+            "@type": "HowToStep",
+            "text": s.instructionJa,
+            "name": `ステップ ${s.stepNumber}`
+        })) : [
+            {
+                "@type": "HowToStep",
+                "text": "中心から放射状に線を描き、全体を広げていきます。",
+                "name": "描き始め"
+            }
+        ],
+        "video": {
+            "@type": "VideoObject",
+            "name": `${pattern.nameJa}の描き方チュートリアル`,
+            "description": `${pattern.nameJa}をゆっくりと描く15分のマインドフルネス体験。`,
+            "thumbnailUrl": `https://img.youtube.com/vi/${pattern.youtubeVideoId}/hqdefault.jpg`,
+            "contentUrl": `https://www.youtube.com/watch?v=${pattern.youtubeVideoId}`,
+            "embedUrl": `https://www.youtube.com/embed/${pattern.youtubeVideoId}`,
+            "uploadDate": "2024-01-01T08:00:00+09:00"
+        }
+    };
+
+    const script = document.createElement('script');
+    script.id = 'dynamic-pattern-schema';
+    script.type = 'application/ld+json';
+    script.text = JSON.stringify(schemaData);
+    document.head.appendChild(script);
 }
 
 // Convert Markdown-style text to HTML
