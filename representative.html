@@ -40,6 +40,28 @@
         rel="stylesheet">
     <link rel="icon" type="image/png" href="favicon.png">
     <link rel="stylesheet" href="css/style.css">
+
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "古橋 美鳥",
+      "alternateName": "Midori Furuhashi",
+      "jobTitle": "代表 / ゼンタングル認定講師 (CZT)",
+      "worksFor": {
+        "@type": "Organization",
+        "name": "株式会社タングルシード"
+      },
+      "description": "株式会社タングルシード代表。8年間のNPO活動を通じてがん患者の心のケアに従事。「ゼンタングルをヨガのように当たり前に」というビジョンを掲げる。",
+      "image": "https://tangle-seed.co.jp/images/representative_real.jpg",
+      "sameAs": [
+        "https://tangle-seed.co.jp/about.html"
+      ],
+      "knowsAbout": ["ゼンタングル", "Zentangle", "マインドフルネス", "NPO活動", "心のケア"],
+      "award": ["Certified Zentangle Teacher #18"]
+    }
+    </script>
 </head>
 
 <body>
@@ -52,11 +74,13 @@
             </a>
             <nav class="header__nav">
                 <ul class="header__nav-list">
-                    <li><a href="representative.html">代表メッセージ</a></li>
+                    <li><a href="representative.html" class="active">代表メッセージ</a></li>
                     <li><a href="about.html">私たちについて</a></li>
+                    <li><a href="guide.html">ゼンタングルとは</a></li>
                     <li><a href="index.html#services">サービス</a></li>
                     <li><a href="stories.html">お客様の声</a></li>
                     <li><a href="library.html">タングル図鑑</a></li>
+                    <li><a href="blog/index.html">ブログ</a></li>
                     <li><a href="gift.html">プレゼント</a></li>
                     <li><a href="corporate.html" class="header__nav-cta">法人・提携のご相談</a></li>
                 </ul>
@@ -84,31 +108,39 @@
         <div class="container">
             <div class="representative-story__content">
                 <div class="representative-story__image">
-                    <img src="images/representative_real.jpg" alt="代表 古橋美鳥">
+                    <img src="images/representative_real.jpg" alt="代表 古橋美鳥" loading="lazy">
                 </div>
                 <div class="representative-story__text">
                     <h2 class="section-title">失敗がない。その一言が、<br>私の人生を変えました。</h2>
-                    <p class="animate--fade-up">
+                    <p>
                         ゼンタングルとの出会いは、私の人生において最も幸福な出来事の一つでした。
-                        「ゼンタングルには失敗がない」——その哲学に触れたとき、
-                        日々の喧騒の中で縮こまっていた心が、ふわりと軽くなったのを覚えています。
+                        「ゼンタングルには失敗がない」——その哲学に初めて触れたとき、
+                        日々の喧騒の中で縮こまっていた心が、驚くほど軽くなったのを今でも鮮明に覚えています。
                     </p>
-                    <p class="animate--fade-up" style="transition-delay: 0.2s;">
-                        私は8年前から、NPO団体「カイツブリの会」にて、がん患者の方々やそのご家族への
+                    <p>
+                        私は2016年からの8年間、NPO団体「カイツブリの会」にて、がん患者の方々やそのご家族への
                         心のケアとしてゼンタングルを提供してきました。
-                        病という大きな不安の中にいる方々が、1枚のカードを描き終えたときに見せる、
-                        穏やかで充足感に満ちた表情。その笑顔こそが、私の活動の原点です。
+                        病という大きな不安の中にいる方々が、一枚のカードを描き終えたときに見せる、
+                        穏やかで充足感に満ちた表情。その笑顔こそが、私のすべての活動の原点です。
                     </p>
-                    <p class="animate--fade-up" style="transition-delay: 0.4s;">
+                    <p>
                         現在、私たちは「ゼンタングルをヨガのように当たり前の存在にする」というビジョンを掲げています。
                         心の健康を保つためのツールとして、誰もがペン一本で、
                         いつでも、どこでも静寂を取り戻せる社会。
                         そんな「心の居場所」を、日本中に広げていきたいと考えています。
                     </p>
-                    <div class="representative-story__signature animate--fade-up" style="transition-delay: 0.6s;">
+                    <div class="representative-story__signature">
                         <p>株式会社タングルシード</p>
-                        <p>代表 / 認定講師（CZT）</p>
-                        <h3 style="font-size: 2rem; margin-top: 0.5rem;">古橋 美鳥</h3>
+                        <p>代表 / ゼンタングル認定講師（CZT）</p>
+                        <div class="team-member__credentials">
+                            <span class="badge badge--gold">CZT #18</span>
+                            <span class="badge badge--experience">8 Years Experience</span>
+                            <span class="badge badge--npo">NPO Background</span>
+                        </div>
+                        <h3
+                            style="font-size: 2.5rem; margin-top: 0.5rem; font-family: var(--font-serif); color: var(--color-dark-gray);">
+                            古橋 美鳥
+                        </h3>
                     </div>
                 </div>
             </div>
@@ -119,28 +151,28 @@
     <section class="profile-detail">
         <div class="container">
             <div class="profile-detail__grid">
-                <div class="profile-detail__item animate--fade-up">
+                <div class="profile-detail__item">
                     <h3 class="profile-detail__title">略歴 / 実績</h3>
                     <ul class="profile-detail__list">
-                        <li>ゼンタングル認定講師（CZT）資格取得</li>
-                        <li>NPO団体「カイツブリの会」にて8年間の指導実績</li>
-                        <li>累計体験者数 40,000人以上</li>
+                        <li>ゼンタングル認定講師（CZT）資格取得（2015年）</li>
+                        <li>NPO団体「カイツブリの会」にて8年間の指導</li>
+                        <li>累計体験者数 40,000人以上のプロジェクト統括</li>
                         <li>全国の書店・カフェでのワークショップ開催多数</li>
-                        <li>企業向けマインドフルネス研修登壇</li>
+                        <li>企業向けマインドフルネス・アート研修登壇</li>
                     </ul>
                 </div>
-                <div class="profile-detail__item animate--fade-up" style="transition-delay: 0.2s;">
-                    <h3 class="profile-detail__title">メディア・講演歴</h3>
+                <div class="profile-detail__item">
+                    <h3 class="profile-detail__title">主な活動テーマ</h3>
                     <ul class="profile-detail__list">
-                        <li>地元主要新聞および雑誌にて活動紹介多数</li>
-                        <li>マインドフルネス・アートをテーマにした講演会登壇</li>
-                        <li>オンライン教育プラットフォームでの講座展開</li>
+                        <li>「失敗を恐れない」創造性の回復</li>
+                        <li>マインドフルネス・アートによるメンタルケア</li>
+                        <li>認定講師の活動支援とコミュニティ運営</li>
+                        <li>医療現場でのアートセラピー導入支援</li>
                     </ul>
                 </div>
-                <div class="profile-detail__item profile-detail__item--image animate--fade-up"
-                    style="transition-delay: 0.4s;">
+                <div class="profile-detail__item profile-detail__item--image">
                     <img src="images/exhibition_showcase.jpg" alt="作品展示の様子" loading="lazy">
-                    <p class="profile-detail__caption">NPO活動での作品展示</p>
+                    <p class="profile-detail__caption">NPO活動での展示風景</p>
                 </div>
             </div>
         </div>
@@ -172,8 +204,11 @@
                     <ul>
                         <li><a href="representative.html">代表メッセージ</a></li>
                         <li><a href="about.html">私たちについて</a></li>
+                        <li><a href="guide.html">ゼンタングルとは</a></li>
                         <li><a href="index.html#services">サービス</a></li>
                         <li><a href="stories.html">お客様の声</a></li>
+                        <li><a href="library.html">タングル図鑑</a></li>
+                        <li><a href="blog/index.html">ブログ</a></li>
                         <li><a href="corporate.html">法人・提携のご相談</a></li>
                     </ul>
                 </div>
