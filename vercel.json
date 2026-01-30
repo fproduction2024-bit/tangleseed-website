@@ -1,4 +1,16 @@
 {
     "cleanUrls": true,
-    "trailingSlash": false
+    "trailingSlash": false,
+    "redirects": [
+        {
+            "source": "/zentangle-stress-relief",
+            "destination": "/blog/zentangle-stress-relief",
+            "permanent": true
+        },
+        {
+            "source": "/zentangle-focus-productivity",
+            "destination": "/blog/zentangle-focus-productivity",
+            "permanent": true
+        }
+    ]
 }
