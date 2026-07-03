@@ -350,6 +350,41 @@
     </footer>
 
     <script src="js/main.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const contactForm = document.querySelector('.contact__form');
+            if (contactForm) {
+                contactForm.addEventListener('submit', function (e) {
+                    e.preventDefault();
+
+                    const company = document.getElementById('company').value;
+                    const name = document.getElementById('name').value;
+                    const email = document.getElementById('email').value;
+                    const phone = document.getElementById('phone').value || '未入力';
+                    const typeSelect = document.getElementById('type');
+                    const typeText = typeSelect.options[typeSelect.selectedIndex].text;
+                    const message = document.getElementById('message').value;
+
+                    const subject = encodeURIComponent('【タングルシード】法人・提携お問い合わせ: ' + company);
+                    const body = encodeURIComponent(
+                        '以下の内容でお問い合わせを承りました。\n' +
+                        '--------------------------------------------------\n' +
+                        '■会社名 / 店舗名: ' + company + '\n' +
+                        '■ご担当者名: ' + name + ' 様\n' +
+                        '■メールアドレス: ' + email + '\n' +
+                        '■電話番号: ' + phone + '\n' +
+                        '■お問い合わせ種別: ' + typeText + '\n\n' +
+                        '■お問い合わせ内容:\n' + message + '\n' +
+                        '--------------------------------------------------\n\n' +
+                        '※このメールはウェブサイトのフォームから生成されました。\n' +
+                        'メーラーが起動しますので、そのまま送信ボタンを押してください。'
+                    );
+
+                    window.location.href = 'mailto:info@tangle-seed.co.jp?subject=' + subject + '&body=' + body;
+                });
+            }
+        });
+    </script>
 </body>
 
 </html>
