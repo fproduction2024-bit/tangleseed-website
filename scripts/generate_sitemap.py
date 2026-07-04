@@ -10,8 +10,11 @@ pages = [
     "stories.html",
     "library.html",
     "gift.html",
+    "guide.html",
+    "faq.html",
     "privacy.html",
-    "legal.html"
+    "legal.html",
+    "blog/"
 ]
 
 patterns_file = "js/data/patterns.json"
@@ -30,6 +33,20 @@ for page in pages:
     xml += f'    <lastmod>{today}</lastmod>\n'
     xml += '    <changefreq>weekly</changefreq>\n'
     xml += '    <priority>0.8</priority>\n'
+    xml += '  </url>\n'
+
+# Add blog articles
+import glob
+import os
+for article in sorted(glob.glob("blog/*.html")):
+    name = os.path.basename(article)
+    if name in ("index.html", "_template.html"):
+        continue
+    xml += '  <url>\n'
+    xml += f'    <loc>{base_url}blog/{name}</loc>\n'
+    xml += f'    <lastmod>{today}</lastmod>\n'
+    xml += '    <changefreq>monthly</changefreq>\n'
+    xml += '    <priority>0.7</priority>\n'
     xml += '  </url>\n'
 
 # Add pattern library subpages
