@@ -30,6 +30,36 @@
         rel="stylesheet">
     <link rel="icon" type="image/png" href="../favicon.png">
     <link rel="stylesheet" href="../css/style.css">
+    <!-- Schema.org Structured Data for Blog Post -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "BlogPosting",
+      "headline": "{{TITLE}}",
+      "description": "{{DESCRIPTION}}",
+      "image": "https://tangle-seed.co.jp/images/blog/{{SLUG}}.jpg",
+      "author": {
+        "@type": "Person",
+        "name": "古橋美鳥",
+        "jobTitle": "CZT（ゼンタングル認定講師）",
+        "url": "https://tangle-seed.co.jp/representative.html"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "株式会社タングルシード",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://tangle-seed.co.jp/favicon.png"
+        }
+      },
+      "datePublished": "{{DATE}}",
+      "dateModified": "{{DATE}}",
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://tangle-seed.co.jp/blog/{{SLUG}}.html"
+      }
+    }
+    </script>
 </head>
 
 <body>

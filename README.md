@@ -1,6 +1,6 @@
 # タングルシード 公式サイト
 
-**最終更新**: 2026-01-23  
+**最終更新**: 2026-07-04  
 **バージョン**: v1.1 (統合版)
 
 ---
@@ -16,8 +16,19 @@ npx -y serve -l 3000
 ```
 
 - **URL**: http://localhost:3000 （ポートは状況により変動）
-- **ディレクトリ**: `/Users/hiroshi/.gemini/antigravity/scratch/tangleseed-website`
-- **状態**: 本番公開準備完了
+- **ディレクトリ**: `/Users/hiroshi/cursor/projects/tangleseed-website`
+- **状態**: 本番稼働中（https://tangle-seed.co.jp）
+
+---
+
+## 🚀 公開（本番デプロイ）
+
+本番サイト https://tangle-seed.co.jp は **Xserver（sv13047.xserver.jp）の `/tangle-seed.co.jp/public_html` へのFTPアップロード**で公開される。
+
+- **GitHub（`fproduction2024-bit/tangleseed-website`）への git push では本番に反映されない**。pushは履歴管理・バックアップのみ。リポジトリ内の `vercel.json` は現在の公開経路では使われていない
+- FTP認証情報: `/Users/hiroshi/cursor/ftp-uploader/config.json`（ただし `remote_directory` は fproduction.co.jp 用のため、アップロード先は `/tangle-seed.co.jp/public_html` を明示すること）
+- ブログ記事の追加・公開手順: `/update-tangleseed-blog` スキル（`cursor/.claude/commands/update-tangleseed-blog.md`）を参照
+- 全HTMLにGA4タグ（G-B5MMYK9SCY）設置済み。`blog/_template.html` にも含まれるため新規記事には自動で入る
 
 ---
 
