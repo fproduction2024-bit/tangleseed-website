@@ -1,0 +1,5 @@
+# URL正規化: http/https・www有無の全バリアントを https://tangle-seed.co.jp/ へ301統一
+RewriteEngine On
+RewriteCond %{HTTPS} !on [OR]
+RewriteCond %{HTTP_HOST} !^tangle-seed\.co\.jp$ [NC]
+RewriteRule ^(.*)$ https://tangle-seed.co.jp/$1 [R=301,L]
